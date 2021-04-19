@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
         Vector3 move = Vector3.zero;
         move += Input.GetAxis("Horizontal") * transform.right * playerVelocity;
         move += Input.GetAxis("Vertical") * transform.forward * playerVelocity;
+        
+        if(Pause.aberto == false)
         controlador.Move(move * Time.deltaTime);
     }
 }

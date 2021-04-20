@@ -10,7 +10,6 @@ public class MenuMethods : MonoBehaviour
     {
         SceneManager.LoadScene(nameScene);
     }
-
        public void FecharJogo()
     {
         Application.Quit();

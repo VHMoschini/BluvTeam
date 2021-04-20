@@ -22,7 +22,6 @@ public class Player : MonoBehaviour
         move += Input.GetAxis("Horizontal") * transform.right * playerVelocity;
         move += Input.GetAxis("Vertical") * transform.forward * playerVelocity;
         
-        if(Pause.aberto == false)
         controlador.Move(move * Time.deltaTime);
     }
 }

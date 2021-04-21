@@ -11,16 +11,18 @@ public class Visao : MonoBehaviour
     private Ray ray;
     private RaycastHit hit;
 
-    private void Start(){
-        transform.localRotation = Quaternion.Euler(Vector3.up);
+    private float range = 2;
+
+    public GameObject interactionHint;
+    private void Start()
+    {
+        transform.localRotation = Quaternion.Euler(Vector3.zero);
     }
 
     private void Update()
     {
         PlayerVision();
-
         RayCast();
-
     }
 
     private void PlayerVision()
@@ -36,22 +38,28 @@ public class Visao : MonoBehaviour
 
     private void RayCast()
     {
-        Debug.DrawRay(transform.position, Vector3.forward, Color.green);
+
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.yellow); // Usado apenas para ver a direção que o jogador está olhando na Aba Scene
+
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out hit)) // Corrigir a distancia que o raycast percorre
+        if (interacao != null)
         {
-            if (hit.transform.GetComponent<IInteragivel>() == null && interacao != null)
-            {
-                interacao.DownLight();
-                return;
-            }
+            interacao.DownLight();
+            interactionHint.SetActive(false);
+        }
+
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, range))
+        {
             interacao = hit.transform.GetComponent<IInteragivel>();
             if (interacao != null)
             {
                 interacao.HighLight();
+                interactionHint.SetActive(true);
+
                 if (Input.GetMouseButtonDown(0))
                     interacao.Interaction();
             }
         }
+
     }
 }

@@ -36,5 +36,6 @@ public class TV : MonoBehaviour, IInteragivel
 
     public void Interaction()
     {
+        Debug.Log(this.name);
     }
 }

@@ -11,7 +11,6 @@ public class Pause : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void Update()
@@ -21,7 +20,8 @@ public class Pause : MonoBehaviour
             OpenClosePause(); // Abre/Fecha o objeto de pause e ativa/desativa o cursor
         }
     }
-    public void OpenClosePause(){
+    public void OpenClosePause()
+    {
         var actualState = pause.activeSelf;
 
         Utils.ChangeCursorState(!actualState);
@@ -29,11 +29,10 @@ public class Pause : MonoBehaviour
         Time.timeScale = pause.activeSelf ? 0 : 1;
     }
 
-       public void VoltarAoMenu ()
+    public void VoltarAoMenu()
     {
         // Volta ao estado normal, DEFAULT
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 1;
 
         SceneManager.LoadScene("Menu");

@@ -21,7 +21,6 @@ public class TV : MonoBehaviour, IInteragivel
 
     private void Start()
     {
-        //mr = GetComponent<MeshRenderer>();
     }
 
     public void DownLight()

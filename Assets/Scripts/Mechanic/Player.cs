@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     private CharacterController controlador;
     public float playerVelocity;
+    public float gravidade;
+    private float downForce;
     void Start()
     {
         controlador = GetComponent<CharacterController>();
@@ -21,7 +23,15 @@ public class Player : MonoBehaviour
         Vector3 move = Vector3.zero;
         move += Input.GetAxis("Horizontal") * transform.right * playerVelocity;
         move += Input.GetAxis("Vertical") * transform.forward * playerVelocity;
-        
+
         controlador.Move(move * Time.deltaTime);
+
+
+        if (!controlador.isGrounded)
+        {
+            downForce += gravidade;
+            controlador.Move(-downForce * Vector3.up * Time.deltaTime);
+        }
+        else downForce = 0;
     }
 }

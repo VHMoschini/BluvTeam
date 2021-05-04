@@ -1,27 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Video;
 
 public class TV : MonoBehaviour, IInteragivel
 {
-    #region [ Public ]
-
+    public MeshRenderer mr;
     public Material highLightMaterial;
     public Material defaultMaterial;
 
-    public MeshRenderer mr;
-
-    #endregion
-
-    #region [ Private ]
-
-
-
-    #endregion
-
-    private void Start()
-    {
-    }
+    [Space(20)]
+    public UnityEvent onClick;
 
     public void DownLight()
     {
@@ -35,6 +25,6 @@ public class TV : MonoBehaviour, IInteragivel
 
     public void Interaction()
     {
-        Debug.Log(this.name);
+        onClick.Invoke();
     }
 }

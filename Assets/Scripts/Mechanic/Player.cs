@@ -34,4 +34,11 @@ public class Player : MonoBehaviour
         }
         else downForce = 0;
     }
+
+    public void TeleportTo(GameObject obj)
+    {
+        controlador.enabled = false;
+        transform.position = obj.transform.position;
+        controlador.enabled = true;
+    }
 }

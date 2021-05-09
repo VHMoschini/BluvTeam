@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{1bb6d8c4-089b-4a24-8479-42b052d0930f}">
+		<property name="name">
+			<value>SubtitleSync</value>
+		</property>
+		<relationship name="folder">
+			<destination>{72fc7801-1473-4408-9e29-9894d779bf9e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1147d6b6-189c-46ca-9c91-9f860acb2261}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1147d6b6-189c-46ca-9c91-9f860acb2261}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{3d8c4e32-d841-49ae-b30c-b889c9eca041}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{3d8c4e32-d841-49ae-b30c-b889c9eca041}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

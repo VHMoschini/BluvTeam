@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class VolumeSliderControl : MonoBehaviour
 {
     FMOD.Studio.EventInstance SFXVolumeTest;
+    FMOD.Studio.EventInstance VoiceVolumeTest;
 
     FMOD.Studio.Bus Master;
     FMOD.Studio.Bus Music;
@@ -13,9 +14,9 @@ public class VolumeSliderControl : MonoBehaviour
     FMOD.Studio.Bus Voice;
 
     public float MasterVolume = 1.0f;
-    public float MusicVolume = 0.5f;
-    public float SFXVolume = 0.5f;
-    public float VoiceVolume = 0.5f;
+    public float MusicVolume = 1.0f;
+    public float SFXVolume = 1.0f;
+    public float VoiceVolume = 1.0f;
 
     bool menuEnabled = false;
 
@@ -65,5 +66,13 @@ public class VolumeSliderControl : MonoBehaviour
     public void VoiceVolumeLevel(float newVoiceVolume)
     {
         VoiceVolume = newVoiceVolume;
+
+        FMOD.Studio.PLAYBACK_STATE voicePlayback;
+        SFXVolumeTest.getPlaybackState(out voicePlayback);
+
+        if (voicePlayback == FMOD.Studio.PLAYBACK_STATE.STOPPED)
+        {
+            VoiceVolumeTest.start();
+        }
     }
 }

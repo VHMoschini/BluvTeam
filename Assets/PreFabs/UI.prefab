@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 5418635840230566672}
   - component: {fileID: 5746963532217180954}
   m_Layer: 5
-  m_Name: SliderMusic
+  m_Name: SliderMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2064,6 +2064,7 @@ GameObject:
   - component: {fileID: 4807556500237080981}
   - component: {fileID: 4807556500237080982}
   - component: {fileID: 4807556500237080979}
+  - component: {fileID: 3775684598150038976}
   m_Layer: 5
   m_Name: Exit Game
   m_TagString: Untagged
@@ -2184,6 +2185,18 @@ MonoBehaviour:
           m_StringArgument: Menu
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 3775684598150038976}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &4807556500237080979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2196,6 +2209,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0436ac3f6cb7f44e98ef60629fccc2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3775684598150038976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4807556500237080977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Interactions/External/Momentum
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &4807556500339072725
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,7 +2852,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 3419541086988378147}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -2920,7 +2956,7 @@ GameObject:
   - component: {fileID: 1291592377987478487}
   - component: {fileID: 6565279422807695231}
   m_Layer: 5
-  m_Name: SliderMusic
+  m_Name: SliderVoice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

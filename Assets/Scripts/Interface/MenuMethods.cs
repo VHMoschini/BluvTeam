@@ -6,12 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class MenuMethods : MonoBehaviour
 {
+    
+    public Animator transition;
+    public float transitionTime = 1f;
    public void ChangeScene (string nameScene)
     {
-        SceneManager.LoadScene(nameScene);
+       StartCoroutine(LoadLevel(nameScene));
     }
        public void FecharJogo()
     {
         Application.Quit();
+    }
+
+    IEnumerator LoadLevel(string nameScene )
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(nameScene);
     }
 }

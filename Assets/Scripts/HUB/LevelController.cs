@@ -22,6 +22,14 @@ public class LevelController : MonoBehaviour
         Carregamento();
 
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            Reset();
+        }
+    }
     public void Carregamento()
     {
          
@@ -29,5 +37,17 @@ public class LevelController : MonoBehaviour
            {
             andares[i].SetActive(true);
            }
+    }
+
+    public void NextLevel()
+    {
+        save.NextLevel();
+        //Carregamento();
+    }
+
+    public void Reset()
+    {
+        save.currentLevel = 0;
+        save.SaveLevel();
     }
 }

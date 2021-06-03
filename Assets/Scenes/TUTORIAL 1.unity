@@ -1636,11 +1636,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0a01534bc14f304fa22c8be9b24c673, type: 3}
---- !u!82 &111823912 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1952662179543932946, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
-  m_PrefabInstance: {fileID: 1952662179587304506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &119251374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,6 +1936,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f93e55092f75e9418e6c631f96e51f4, type: 3}
+--- !u!114 &132636868 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 213530404927175623, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+  m_PrefabInstance: {fileID: 1952662179587304506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &142957788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,8 +2942,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1125172472}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 393986352}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -4983,6 +4989,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2a9256c9a48e9541a987155b9ddb6e8, type: 3}
   m_PrefabInstance: {fileID: 927966424}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &393986352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2605953743411984227, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+  m_PrefabInstance: {fileID: 1952662179587304506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &403460842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: edb22ecea1fd32f478d077e4a1fecc22, type: 3}
@@ -6016,6 +6033,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494387290}
   m_Mesh: {fileID: -8042824669934249015, guid: 3f2b2c9a4ebd9f34e8e1b773406c7be3, type: 3}
+--- !u!114 &494808330 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8932754259546792394, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+  m_PrefabInstance: {fileID: 1952662179587304506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &506635708
 GameObject:
   m_ObjectHideFlags: 0
@@ -9915,6 +9943,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930721980}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &931417125 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3825678195025075151, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+  m_PrefabInstance: {fileID: 1952662179587304506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &940458573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4401431401273112, guid: 29f14dec24e07db4eaa6ffa1a1d5b604, type: 3}
@@ -10746,6 +10785,54 @@ MonoBehaviour:
           m_StringArgument: TUTORIAL 2
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 132636868}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1569310269}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1657571673}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2145911786}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!64 &1084935271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11148,11 +11235,6 @@ MeshFilter:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b0a01534bc14f304fa22c8be9b24c673, type: 3}
   m_PrefabInstance: {fileID: 1432429346}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1125172472 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1952662180712474818, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
-  m_PrefabInstance: {fileID: 1952662179587304506}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1126716337
 GameObject:
@@ -11628,8 +11710,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1125172472}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 393986352}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -11640,8 +11722,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1373380841}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 1657571673}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -11652,8 +11734,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1762761629}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 1569310269}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -11664,8 +11746,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 111823912}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 931417125}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -13995,11 +14077,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371744730}
   m_Mesh: {fileID: 7425758697607453491, guid: 3f2b2c9a4ebd9f34e8e1b773406c7be3, type: 3}
---- !u!82 &1373380841 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1952662180406496467, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
-  m_PrefabInstance: {fileID: 1952662179587304506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1380770306
 GameObject:
   m_ObjectHideFlags: 0
@@ -14174,8 +14251,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1125172472}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+      - m_Target: {fileID: 393986352}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -15748,6 +15825,7 @@ GameObject:
   - component: {fileID: 1511576260}
   - component: {fileID: 1511576259}
   - component: {fileID: 1511576258}
+  - component: {fileID: 1511576263}
   m_Layer: 6
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -15903,6 +15981,20 @@ Transform:
   m_Father: {fileID: 8076343096621452178}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511576263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511576257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!1001 &1526406009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16499,6 +16591,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566974263}
   m_Mesh: {fileID: 2745918199544463571, guid: 3f2b2c9a4ebd9f34e8e1b773406c7be3, type: 3}
+--- !u!114 &1569310269 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8371498005654218892, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+  m_PrefabInstance: {fileID: 1952662179587304506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1571501731
 GameObject:
   m_ObjectHideFlags: 0
@@ -17521,6 +17624,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29f14dec24e07db4eaa6ffa1a1d5b604, type: 3}
+--- !u!114 &1657571673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6298045633441877973, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+  m_PrefabInstance: {fileID: 1952662179587304506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1663612651 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3700412708820290817, guid: 225b276a19bb84343b255b7e3d690ce3, type: 3}
@@ -18850,11 +18964,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759607849}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!82 &1762761629 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1952662181081626535, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
-  m_PrefabInstance: {fileID: 1952662179587304506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1769405457 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2a9256c9a48e9541a987155b9ddb6e8, type: 3}
@@ -21731,6 +21840,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 494808330}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2124683147}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &2124683150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21807,6 +21940,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2145911785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7955456414423588507, guid: b870d63069b4cdf4bb3061debdd13dc5, type: 3}
+  m_PrefabInstance: {fileID: 270000036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2145911786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145911785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Interactions/External/Elevator Ding
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0.5
+  OverrideMaxDistance: 20
 --- !u!1001 &1678884881501164199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21871,6 +22032,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 213530404927175623, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1952662179401395272, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
       propertyPath: m_Name
       value: Som
@@ -21918,6 +22083,18 @@ PrefabInstance:
     - target: {fileID: 1952662179401395273, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825678195025075151, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+      propertyPath: Event
+      value: event:/Dublagem/Tutorial/Hospital/Corredor
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725288398172929747, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+      propertyPath: Event
+      value: event:/Dublagem/Tutorial/Hospital/Prontuario
+      objectReference: {fileID: 0}
+    - target: {fileID: 8932754259546792394, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
+      propertyPath: Event
+      value: event:/Dublagem/Tutorial/Hospital/Mae Prox
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce21e2d44bb564489491b14aa9e3c3c, type: 3}
@@ -22119,6 +22296,7 @@ GameObject:
   - component: {fileID: 8076343096548248757}
   - component: {fileID: 8076343096548248756}
   - component: {fileID: 1562842748}
+  - component: {fileID: 8076343096548248760}
   m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -22126,6 +22304,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8076343096548248760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8076343096548248759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!4 &8076343096621452178
 Transform:
   m_ObjectHideFlags: 0

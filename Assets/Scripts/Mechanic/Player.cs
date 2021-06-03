@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     {
         controlador.enabled = false;
         transform.position = obj.transform.position;
+        transform.rotation = obj.transform.rotation;
         controlador.enabled = true;
     }
 }

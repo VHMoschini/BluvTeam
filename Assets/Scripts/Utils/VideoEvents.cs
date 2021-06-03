@@ -16,6 +16,9 @@ public class VideoEvents : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+            OnFinished.Invoke();
+
         Debug.Log(videoPlayer.frame + "  " + ((long)videoPlayer.frameCount));
         if (videoPlayer.frame == (((long)videoPlayer.frameCount) - 2))
         {

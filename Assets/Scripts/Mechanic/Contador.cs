@@ -14,9 +14,12 @@ public class Contador : MonoBehaviour
 
     void Update()
     {
-        if (contadorDisplay.gameObject.activeSelf)
+        if (contadorDisplay != null)
         {
-            contadorDisplay.text = atual + "/" + total;
+            if (contadorDisplay.gameObject.activeSelf)
+            {
+                contadorDisplay.text = atual + "/" + total;
+            }
         }
 
         if (atual >= total)

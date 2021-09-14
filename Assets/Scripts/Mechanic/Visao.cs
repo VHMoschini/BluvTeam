@@ -14,6 +14,7 @@ public class Visao : MonoBehaviour
     private float range = 2;
 
     public GameObject interactionHint;
+
     private void Start()
     {
         transform.localRotation = Quaternion.Euler(Vector3.zero);

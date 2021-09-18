@@ -6,8 +6,10 @@ public class Visao : MonoBehaviour
 {
     public float mouseSensitivity = 100f;
     public Transform playerBody;
+
     float xRotation = 0f;
     IInteragivel interacao;
+
     private Ray ray;
     private RaycastHit hit;
 
@@ -26,6 +28,7 @@ public class Visao : MonoBehaviour
         RayCast();
     }
 
+    #region [ Camera Control ]
     private void PlayerVision()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
@@ -36,7 +39,9 @@ public class Visao : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
     }
+    #endregion
 
+    #region [ RayCast ]
     private void RayCast()
     {
 
@@ -63,4 +68,5 @@ public class Visao : MonoBehaviour
         }
 
     }
+    #endregion
 }

@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 8076343096655940208}
   - component: {fileID: 8076343096655940209}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,8 +372,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8076343096783670615}
   - component: {fileID: 8076343096783670614}
+  - component: {fileID: 1738453313}
   m_Layer: 0
-  m_Name: CameraHolder
+  m_Name: Rendering
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -409,6 +410,25 @@ MonoBehaviour:
   mouseSensitivity: 600
   playerBody: {fileID: 8076343098121722661}
   interactionHint: {fileID: 8076343096464404144}
+  Razao: []
+  Emocao: []
+--- !u!114 &1738453313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8076343096783670608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 7ea13e2f9206c864fa23e549a5cacd74, type: 2}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &8076343098121722662
 GameObject:
   m_ObjectHideFlags: 0

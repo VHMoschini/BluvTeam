@@ -4,29 +4,53 @@ using UnityEngine;
 
 public class Visao : MonoBehaviour
 {
+
+    [Header("Camera Control")]
     public float mouseSensitivity = 100f;
+    [Space(10)]
     public Transform playerBody;
 
     float xRotation = 0f;
+
+    [Header("RayCast")]
     IInteragivel interacao;
 
     private Ray ray;
     private RaycastHit hit;
 
     private float range = 2;
-
     public GameObject interactionHint;
+
+    [Header("Razões e Emoções")]
+    public List<GameObject> Razao;     
+    public List<GameObject> Emocao;
 
     private void Start()
     {
         transform.localRotation = Quaternion.Euler(Vector3.zero);
     }
 
+    #region [ Razão e Emoção ]
+
     private void Update()
     {
         PlayerVision();
         RayCast();
+
     }
+
+    public void razaoEEmocao()
+    {
+        foreach (GameObject obj in Razao)
+            switchState(obj);
+
+        foreach (GameObject obj in Emocao)
+            switchState(obj);
+    }
+
+    private void switchState(GameObject obj) => obj.SetActive(!obj.activeSelf);
+
+    #endregion
 
     #region [ Camera Control ]
     private void PlayerVision()

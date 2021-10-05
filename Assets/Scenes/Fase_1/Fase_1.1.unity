@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -621,7 +621,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1340
+  m_Name: pb_Mesh-189240
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9611,6 +9611,53 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &620604198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6822536163173054424, guid: 72fc0616efb9e7848b063f949d49cc53, type: 3}
+  m_PrefabInstance: {fileID: 6822536162904444715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &620604200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620604198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2038a10bab2cf438644c10ea8a0315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 2
+  rightAngle: 90
+  FindWord:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1240331086}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &620604201
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620604198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0434476, z: 0.974928}
+  m_Center: {x: -0.5, y: 0.5217238, z: 0}
 --- !u!43 &632365242
 Mesh:
   m_ObjectHideFlags: 0
@@ -23175,7 +23222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.74
+      value: -1.84
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23183,11 +23230,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.14
+      value: -4.37
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70215315
+      value: 0.70821667
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -23195,7 +23242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.712026
+      value: 0.7059952
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalRotation.z
@@ -23207,7 +23254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.8
+      value: 89.82
       objectReference: {fileID: 0}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

@@ -44,3 +44,11 @@ public class VisionWords : MonoBehaviour
  Comparar a distancia do jogador com esse objeto, e pegar a diferença e criar um glow que aumenta quanto mais perto
 o jogador estiver
  */
+
+/*
+Static property array of game object de emoção e um outro de razão
+
+Uma boolean que diz se o objeto é o admin do razão e emoção ou não
+Case seja muda o editor com as propriedades adequadas, se não usa as propriedades de objetos a serem ligado e desligados.
+ 
+ */

@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class VisionWords : MonoBehaviour
 {
     [SerializeField] private float range;
-    [SerializeField] private float rightAngle;
+    [SerializeField] public float rightAngle;
 
     public UnityEvent FindWord;
 
@@ -41,14 +41,14 @@ public class VisionWords : MonoBehaviour
 
 /*
  * TODO
- Comparar a distancia do jogador com esse objeto, e pegar a diferença e criar um glow que aumenta quanto mais perto
+ Comparar a distancia do jogador com esse objeto, e pegar a diferenï¿½a e criar um glow que aumenta quanto mais perto
 o jogador estiver
  */
 
 /*
-Static property array of game object de emoção e um outro de razão
+Static property array of game object de emoï¿½ï¿½o e um outro de razï¿½o
 
-Uma boolean que diz se o objeto é o admin do razão e emoção ou não
-Case seja muda o editor com as propriedades adequadas, se não usa as propriedades de objetos a serem ligado e desligados.
+Uma boolean que diz se o objeto ï¿½ o admin do razï¿½o e emoï¿½ï¿½o ou nï¿½o
+Case seja muda o editor com as propriedades adequadas, se nï¿½o usa as propriedades de objetos a serem ligado e desligados.
  
  */

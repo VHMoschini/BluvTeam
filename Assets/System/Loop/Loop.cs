@@ -23,7 +23,6 @@ public class Loop : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(loopLife);
     }
 
     public void Entrada()

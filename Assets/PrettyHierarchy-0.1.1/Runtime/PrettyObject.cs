@@ -3,6 +3,9 @@ using UnityEditor;
 
 namespace PrettyHierarchy
 {
+
+#if UNITY_EDITOR
+
     [DisallowMultipleComponent]
     public class PrettyObject : MonoBehaviour
     {
@@ -36,4 +39,5 @@ namespace PrettyHierarchy
             EditorApplication.RepaintHierarchyWindow();
         }
     }
+#endif
 }

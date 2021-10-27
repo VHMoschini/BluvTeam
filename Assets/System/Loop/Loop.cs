@@ -51,6 +51,8 @@ public class Loop : MonoBehaviour
     }
 }
 
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(Loop)), CanEditMultipleObjects,]
 public class LoopEditor : Editor
 {
@@ -76,6 +78,8 @@ public class LoopEditor : Editor
         EditorGUILayout.EndToggleGroup();
     }
 }
+
+#endif
 
 
 

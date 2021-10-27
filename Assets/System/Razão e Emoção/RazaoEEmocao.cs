@@ -34,8 +34,9 @@ public class RazaoEEmocao : MonoBehaviour
 
         foreach (RazaoEEmocao go in Resources.FindObjectsOfTypeAll(typeof(RazaoEEmocao)) as RazaoEEmocao[])
         {
-            if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-                objectsInScene.Add(go);
+            //if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+                if ( !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+                    objectsInScene.Add(go);
         }
 
         return objectsInScene;
@@ -77,8 +78,10 @@ public class RazaoEEmocao : MonoBehaviour
     //}
 }
 
+#if UNITY_EDITOR
 
-[CustomEditor(typeof(RazaoEEmocao)), CanEditMultipleObjects,]
+
+[CustomEditor(typeof(RazaoEEmocao))]
 public class REEditor : Editor
 {
     private RazaoEEmocao baseScript;
@@ -128,3 +131,4 @@ public class REEditor : Editor
     }
 }
 
+#endif

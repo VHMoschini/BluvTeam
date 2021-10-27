@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(MoveObject))]
 public class MoveObjectEditor : Editor
 {
@@ -75,3 +78,4 @@ public class MoveObjectEditor : Editor
 
     }
 }
+#endif

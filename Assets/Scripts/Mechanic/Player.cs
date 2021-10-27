@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         if (!controlador.isGrounded)
         {
             downForce += gravidade;
-            controlador.Move(-downForce * Vector3.up * Time.deltaTime);
+            controlador.Move(-downForce * Vector3.up * Time.deltaTime * 0.2f);
         }
         else downForce = 0;
     }

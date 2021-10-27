@@ -3,6 +3,8 @@ using UnityEngine;
 
 namespace PrettyHierarchy
 {
+
+#if UNITY_EDITOR
     public static class EditorColors
     {
         // DARK THEME - Background
@@ -74,4 +76,5 @@ namespace PrettyHierarchy
             return selectionContainsObject ? windowIsFocused ? ObjectSelectedWindowFocusedText : ObjectSelectedText : Text;
         }
     }
+#endif
 }

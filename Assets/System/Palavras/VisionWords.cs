@@ -53,6 +53,8 @@ public class VisionWords : MonoBehaviour
     }
 }
 
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(VisionWords))]
 public class WordsEditor : Editor
 {
@@ -85,6 +87,8 @@ public class WordsEditor : Editor
 
     }
 }
+
+#endif
 
 
 /*

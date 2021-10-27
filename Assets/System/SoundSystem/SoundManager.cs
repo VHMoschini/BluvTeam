@@ -64,6 +64,8 @@ public class SoundManager : MonoBehaviour
     }
 }
 
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(SoundManager))]
 public class SoundManagerEditor : Editor
 {
@@ -95,3 +97,5 @@ public class SoundManagerEditor : Editor
 
     }
 }
+
+#endif

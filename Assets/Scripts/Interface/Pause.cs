@@ -11,7 +11,7 @@ public class Pause : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        Application.targetFrameRate = 60;
+        //Application.targetFrameRate = 60;
     }
 
     void Update()

@@ -29,6 +29,11 @@ public class MoveObject : MonoBehaviour, IInteragivel
 
     public void Interaction()
     {
+        MoveObjectNow();
+    }
+
+    public void MoveObjectNow()
+    {
         StopAllCoroutines();
 
         if (targetPosition == p_final && targetRotation == r_final)
@@ -51,8 +56,8 @@ public class MoveObject : MonoBehaviour, IInteragivel
 
         while (timeElapsed < speed)
         {
-            transform.position = Vector3.Lerp(transform.position, targetPosition, timeElapsed / speed);
-            transform.localEulerAngles = Vector3.Lerp(transform.eulerAngles, targetRotation, timeElapsed / speed);
+            transform.localPosition = Vector3.Lerp(transform.localPosition, targetPosition, timeElapsed / speed);
+            transform.localEulerAngles = Vector3.Lerp(transform.localEulerAngles, targetRotation, timeElapsed / speed);
             timeElapsed += Time.deltaTime;
 
             yield return null;

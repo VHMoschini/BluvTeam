@@ -23,8 +23,8 @@ public class MoveObjectEditor : Editor
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Reset Posição"))
             {
-                baseScript.gameObject.transform.position = baseScript.p_Inicial;
-                baseScript.gameObject.transform.eulerAngles = baseScript.r_Inicial;
+                baseScript.gameObject.transform.localPosition = baseScript.p_Inicial;
+                baseScript.gameObject.transform.localEulerAngles = baseScript.r_Inicial;
             }
 
             GUILayout.EndHorizontal();
@@ -34,13 +34,13 @@ public class MoveObjectEditor : Editor
 
             if (GUILayout.Button("Transform Inicial"))
             {
-                baseScript.p_Inicial = baseScript.gameObject.transform.position;
-                baseScript.r_Inicial = baseScript.gameObject.transform.eulerAngles;
+                baseScript.p_Inicial = baseScript.gameObject.transform.localPosition;
+                baseScript.r_Inicial = baseScript.gameObject.transform.localEulerAngles;
             }
             if (GUILayout.Button("Transform Final"))
             {
-                baseScript.p_final = baseScript.gameObject.transform.position;
-                baseScript.r_final = baseScript.gameObject.transform.eulerAngles;
+                baseScript.p_final = baseScript.gameObject.transform.localPosition;
+                baseScript.r_final = baseScript.gameObject.transform.localEulerAngles;
             }
 
             GUILayout.EndHorizontal();

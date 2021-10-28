@@ -6,7 +6,7 @@ public class Visao : MonoBehaviour
 {
 
     [Header("Camera Control")]
-    public float mouseSensitivity = 100f;
+    public float mouseSensitivity = 15f;
     [Space(10)]
     public Transform playerBody;
 
@@ -18,7 +18,7 @@ public class Visao : MonoBehaviour
     private Ray ray;
     private RaycastHit hit;
 
-    private float range = 2;
+    private float range = 2.5f;
     public GameObject interactionHint;
 
     [Header("Razões e Emoções")]
@@ -55,8 +55,8 @@ public class Visao : MonoBehaviour
     #region [ Camera Control ]
     private void PlayerVision()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * (mouseSensitivity * 20) * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * (mouseSensitivity * 20) * Time.deltaTime;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
@@ -83,6 +83,8 @@ public class Visao : MonoBehaviour
             interacao = hit.transform.GetComponent<IInteragivel>();
             if (interacao != null)
             {
+                if (!interacao.interagivel) return;
+
                 interacao.HighLight();
                 interactionHint.SetActive(true);
 
@@ -93,4 +95,9 @@ public class Visao : MonoBehaviour
 
     }
     #endregion
+
+    public void SensibilityController(float sensibility)
+    {
+        mouseSensitivity = sensibility;
+    }
 }

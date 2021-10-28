@@ -19,6 +19,8 @@ public class VisionWords : MonoBehaviour
 
     public UnityEvent FindWord;
 
+    [Header("Objeto que precise ser movimentado")]
+    public MoveObject objectToMove;       
 
     private IEnumerator coroutine;
     private bool execution;
@@ -34,13 +36,14 @@ public class VisionWords : MonoBehaviour
         {
             var actualRotation = other.transform.eulerAngles.y;
 
-            if (actualRotation > rightAngle - range && actualRotation < rightAngle + range && !execution)
+            if (actualRotation > rightAngle - range && actualRotation < rightAngle + range && !execution )
             {
+                if (objectToMove != null && objectToMove.isInInitialPosition) return;
+
                 StartCoroutine(coroutine);
             }
         }
     }
-
     IEnumerator HoldCooldown(float _holdTime)
     {
         execution = true;

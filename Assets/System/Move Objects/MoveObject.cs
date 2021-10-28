@@ -1,9 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MoveObject : MonoBehaviour, IInteragivel
 {
+    // [ Pra implementar a interface deve ser feito essa implementação ]
+    [Space(10)]
+    public bool Interagivel = true;
+    bool IInteragivel.interagivel { get => Interagivel; }
+
     [Header("Transform Inicial")]
     [SerializeField] public Vector3 p_Inicial = Vector3.zero;
     [SerializeField] public Vector3 r_Inicial = Vector3.zero;
@@ -19,6 +25,15 @@ public class MoveObject : MonoBehaviour, IInteragivel
     private Vector3 targetPosition;
     private Vector3 targetRotation;
 
+    [HideInInspector]
+    public bool isInInitialPosition = true;
+
+    [Space(10)]
+    public UnityEvent onInteract;
+
+    [HideInInspector]
+    public bool lockEvent;
+
     public void DownLight()
     {
     }
@@ -30,10 +45,16 @@ public class MoveObject : MonoBehaviour, IInteragivel
     public void Interaction()
     {
         MoveObjectNow();
+
+        if (lockEvent) return;      // Uma boolean de controle que desativa ao primeiro evento
+        lockEvent = true;           // Caso queira que continue podendo lançar o evento
+        onInteract.Invoke();        // Coloque esse script no evento e sette a variavel pra false.
     }
 
     public void MoveObjectNow()
     {
+        isInInitialPosition = !isInInitialPosition;
+
         StopAllCoroutines();
 
         if (targetPosition == p_final && targetRotation == r_final)

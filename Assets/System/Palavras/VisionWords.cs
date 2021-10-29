@@ -16,6 +16,7 @@ public class VisionWords : MonoBehaviour
 
     [Space(10)]
 
+    public GameObject[] WordsInObjects;
 
     public UnityEvent FindWord;
 
@@ -52,6 +53,8 @@ public class VisionWords : MonoBehaviour
 
         gameObject.SetActive(false);
         words.SetActive(false);
+        for(int n = 0; n< WordsInObjects.Length; n++) WordsInObjects[n].SetActive(false);
+
         FindWord.Invoke();
     }
 }

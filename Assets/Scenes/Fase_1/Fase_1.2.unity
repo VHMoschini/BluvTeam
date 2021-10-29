@@ -2890,6 +2890,10 @@ MonoBehaviour:
   r_final: {x: -0, y: 0, z: 0}
   speed: 200
   isInInitialPosition: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  lockEvent: 0
 --- !u!43 &453630023
 Mesh:
   m_ObjectHideFlags: 0
@@ -4015,6 +4019,10 @@ MonoBehaviour:
   r_final: {x: -0, y: 0, z: 0}
   speed: 200
   isInInitialPosition: 1
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  lockEvent: 0
 --- !u!43 &521635274
 Mesh:
   m_ObjectHideFlags: 0
@@ -11437,6 +11445,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2687447362598876997, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688660475193483713, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

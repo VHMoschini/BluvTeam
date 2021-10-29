@@ -18,6 +18,9 @@ public class Pause : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
         {
+            pause.transform.GetChild(0).gameObject.SetActive(true);
+            pause.transform.GetChild(1).gameObject.SetActive(false);
+
             OpenClosePause(); // Abre/Fecha o objeto de pause e ativa/desativa o cursor
         }
     }

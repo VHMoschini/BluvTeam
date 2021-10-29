@@ -5,10 +5,16 @@ using UnityEngine.Events;
 
 public class interacaoEvent : MonoBehaviour, IInteragivel
 {
+    // [ Pra implementar a interface deve ser feito essa implementação ]
+    [Space(10)]
+    public bool Interagivel = true;
+    bool IInteragivel.interagivel { get => Interagivel; }
+
     [SerializeField] private Material defaultMaterial;
     [SerializeField] private Material highlightedMaterial;
     private MeshRenderer mr;
     public UnityEvent onInterect;
+
     private void Start()
     {
         mr = GetComponent<MeshRenderer>();

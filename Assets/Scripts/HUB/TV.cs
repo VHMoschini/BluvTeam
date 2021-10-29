@@ -6,12 +6,19 @@ using UnityEngine.Video;
 
 public class TV : MonoBehaviour, IInteragivel
 {
+    // [ Pra implementar a interface deve ser feito essa implementação ]
+    [Space(10)]
+    public bool Interagivel = true;
+    bool IInteragivel.interagivel { get => Interagivel; }
+
     public MeshRenderer mr;
     public Material highLightMaterial;
     public Material defaultMaterial;
 
     [Space(20)]
     public UnityEvent onClick;
+
+    public bool interagivel { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 
     public void DownLight()
     {

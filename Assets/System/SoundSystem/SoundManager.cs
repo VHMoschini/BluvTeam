@@ -50,12 +50,12 @@ public class SoundManager : MonoBehaviour
         {
             if (toUp)
             {
-                floatingNumber += 0.01f;
+                floatingNumber += 0.05f;
                 if (floatingNumber > targetNumber) floatingNumber = targetNumber;
             }
             else
             {
-                floatingNumber -= 0.01f;
+                floatingNumber -= 0.05f;
                 if (floatingNumber < targetNumber) floatingNumber = targetNumber;
             }
 

@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &46140169 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8249076765554792947, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+  m_PrefabInstance: {fileID: 1088299175}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b4f19265a11df438ae67109293576f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &89680103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -238,7 +249,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60024
+  m_Name: pb_Mesh57632
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -396,6 +407,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &156221065 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1147197683260885214, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+  m_PrefabInstance: {fileID: 1088299175}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b4f19265a11df438ae67109293576f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &181285477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2867841234219185821, guid: 42d4ead73fcfd6c468be8f8a4d219021, type: 3}
@@ -748,7 +770,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60012
+  m_Name: pb_Mesh57620
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1726,6 +1748,7 @@ GameObject:
   - component: {fileID: 357215818}
   - component: {fileID: 357215817}
   - component: {fileID: 357215816}
+  - component: {fileID: 357215819}
   m_Layer: 0
   m_Name: Position
   m_TagString: Untagged
@@ -1790,6 +1813,7 @@ MonoBehaviour:
   rightAngle: 1.0143923
   holdTime: 1
   words: {fileID: 220095671}
+  WordsInObjects: []
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -1805,7 +1829,66 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 156221065}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: DecrementLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 357215819}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 46140169}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: DecrementLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   objectToMove: {fileID: 0}
+--- !u!114 &357215819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357215814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Interactions/External/Momentum
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &363851502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2867841234219185890, guid: 42d4ead73fcfd6c468be8f8a4d219021, type: 3}
@@ -2030,7 +2113,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60036
+  m_Name: pb_Mesh57644
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2886,7 +2969,7 @@ MonoBehaviour:
   Interagivel: 1
   p_Inicial: {x: 0, y: 0, z: 0.29}
   r_Inicial: {x: -0, y: 0, z: 0}
-  p_final: {x: 0, y: 0, z: 3.24}
+  p_final: {x: 0, y: 0, z: 2.82}
   r_final: {x: -0, y: 0, z: 0}
   speed: 200
   isInInitialPosition: 1
@@ -2900,7 +2983,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59914
+  m_Name: pb_Mesh57522
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3064,7 +3147,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60220
+  m_Name: pb_Mesh57832
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3837,7 +3920,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60266
+  m_Name: pb_Mesh57878
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4029,7 +4112,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60372
+  m_Name: pb_Mesh22350
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5567,7 +5650,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60150
+  m_Name: pb_Mesh57762
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6243,6 +6326,7 @@ GameObject:
   - component: {fileID: 740777595}
   - component: {fileID: 740777594}
   - component: {fileID: 740777593}
+  - component: {fileID: 740777596}
   m_Layer: 0
   m_Name: Position
   m_TagString: Untagged
@@ -6307,6 +6391,7 @@ MonoBehaviour:
   rightAngle: 280.27017
   holdTime: 1
   words: {fileID: 1590391775}
+  WordsInObjects: []
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -6322,7 +6407,54 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 156221065}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: DecrementLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 740777596}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   objectToMove: {fileID: 437282701}
+--- !u!114 &740777596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740777591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Interactions/External/Momentum
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &771551583
 GameObject:
   m_ObjectHideFlags: 0
@@ -7404,7 +7536,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60350
+  m_Name: pb_Mesh57962
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7568,7 +7700,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60328
+  m_Name: pb_Mesh57940
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7933,6 +8065,7 @@ MonoBehaviour:
   rightAngle: 280
   holdTime: 10
   words: {fileID: 0}
+  WordsInObjects: []
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -9419,7 +9552,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60050
+  m_Name: pb_Mesh57658
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10193,7 +10326,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59960
+  m_Name: pb_Mesh57568
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10606,7 +10739,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60448
+  m_Name: pb_Mesh58056
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10770,7 +10903,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60242
+  m_Name: pb_Mesh57854
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10934,7 +11067,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59978
+  m_Name: pb_Mesh57586
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11528,6 +11661,30 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 8719630363872416708, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719630363872416708, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: Params.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719630363872416708, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: Params.Array.data[0].Name
+      value: Transitions
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719630363872416708, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: Params.Array.data[1].Name
+      value: Layer Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719630363872416708, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: Params.Array.data[0].Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8719630363872416708, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
+      propertyPath: Params.Array.data[1].Value
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
 --- !u!1 &1114687112
@@ -11742,7 +11899,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60292
+  m_Name: pb_Mesh57904
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11994,6 +12151,7 @@ MonoBehaviour:
   rightAngle: 0
   holdTime: 10
   words: {fileID: 0}
+  WordsInObjects: []
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -12041,7 +12199,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60086
+  m_Name: pb_Mesh22060
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12205,7 +12363,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60280
+  m_Name: pb_Mesh57892
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13057,7 +13215,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60174
+  m_Name: pb_Mesh57786
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13680,7 +13838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60384
+  m_Name: pb_Mesh57996
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16183,7 +16341,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60304
+  m_Name: pb_Mesh57916
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16381,7 +16539,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60098
+  m_Name: pb_Mesh57706
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16960,7 +17118,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh59992
+  m_Name: pb_Mesh57600
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16971,8 +17129,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 24
     localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
+      m_Center: {x: 1.2371478, y: 1.7486203, z: -0.12703681}
+      m_Extent: {x: 1.2440758, y: 1.7486203, z: 0.12703681}
   m_Shapes:
     vertices: []
     shapes: []
@@ -18136,7 +18294,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh60316
+  m_Name: pb_Mesh57928
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18700,6 +18858,7 @@ GameObject:
   - component: {fileID: 2472856124951846086}
   - component: {fileID: 2079792992632125773}
   - component: {fileID: 1242525198824531507}
+  - component: {fileID: 2079792992632125776}
   m_Layer: 0
   m_Name: Position
   m_TagString: Untagged
@@ -18721,6 +18880,29 @@ Transform:
   m_Father: {fileID: 2079792993468760634}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2079792992632125776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079792992632125774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Interactions/External/Momentum
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &2079792993341495793
 GameObject:
   m_ObjectHideFlags: 0
@@ -18801,6 +18983,7 @@ MonoBehaviour:
   rightAngle: 25
   holdTime: 1
   words: {fileID: 2079792993341495793}
+  WordsInObjects: []
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -18808,6 +18991,42 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 46140169}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: IncrementLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 156221065}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: DecrementLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2079792992632125776}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

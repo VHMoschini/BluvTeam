@@ -23,14 +23,14 @@ public class SoundManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(ParameterName.ToString());
+        //Debug.Log(ParameterName.ToString());
 
         emitter = GetComponent<StudioEventEmitter>();
     }
 
     private void Update()
     {
-        Debug.Log(floatingNumber);
+        //Debug.Log(floatingNumber);
 
 
         emitter.EventInstance.setParameterByName(ParameterName.ToString(), floatingNumber);

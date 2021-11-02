@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Visao : MonoBehaviour
 {
 
     [Header("Camera Control")]
-    public float mouseSensitivity = 15f;
+    public Slider sensibilitySlider;
+    private float mouseSensitivity;
     [Space(10)]
     public Transform playerBody;
 
@@ -22,12 +24,23 @@ public class Visao : MonoBehaviour
     public GameObject interactionHint;
 
     [Header("Razões e Emoções")]
-    public List<GameObject> Razao;     
+    public List<GameObject> Razao;
     public List<GameObject> Emocao;
 
     private void Start()
     {
         transform.localRotation = Quaternion.Euler(Vector3.zero);
+    }
+
+    private void OnEnable()
+    {
+        mouseSensitivity = PlayerPrefs.GetFloat(Constantes.SENSIBILITY_SAVE, 15f);
+        sensibilitySlider.value = mouseSensitivity;
+    }
+
+    private void OnDisable()
+    {
+        PlayerPrefs.SetFloat(Constantes.SENSIBILITY_SAVE, mouseSensitivity);
     }
 
     #region [ Razão e Emoção ]

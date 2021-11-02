@@ -11,21 +11,21 @@ using UnityEngine;
 
 public class RazaoEEmocao : MonoBehaviour
 {
-    //public  List<GameObject> Razao;      // Objetos da razão
-    //public  List<GameObject> Emocao;     // Objestos da emoção
+    public List<GameObject> Razao;      // Objetos da razão
+    public List<GameObject> Emocao;     // Objestos da emoção
 
-    public static List<RazaoEEmocao> objs = new List<RazaoEEmocao>();
+    //public static List<RazaoEEmocao> objs = new List<RazaoEEmocao>();
 
-    public bool manager;
+    //public bool manager;
 
     //public bool lockState = true;       // Variavel de controle do jogador
 
     private void Awake()
     {
-        if (!manager) return;
+        //if (!manager) return;
 
         //objs.Add(gameObject);
-        objs = GetAllObjectsOnlyInScene();
+        //objs = GetAllObjectsOnlyInScene();
     }
 
     List<RazaoEEmocao> GetAllObjectsOnlyInScene()
@@ -34,9 +34,9 @@ public class RazaoEEmocao : MonoBehaviour
 
         foreach (RazaoEEmocao go in Resources.FindObjectsOfTypeAll(typeof(RazaoEEmocao)) as RazaoEEmocao[])
         {
-            //if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-                if ( !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-                    objectsInScene.Add(go);
+            if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+                //if ( !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+                objectsInScene.Add(go);
         }
 
         return objectsInScene;
@@ -52,18 +52,18 @@ public class RazaoEEmocao : MonoBehaviour
 
     public void razaoEEmocao()
     {
-        foreach (RazaoEEmocao obj in objs)
-        {
-            if (obj.manager) return;
-            switchState(obj.gameObject);
-        }
+        //foreach (RazaoEEmocao obj in objs)
+        //{
+        //    switchState(obj.gameObject);
+        //}
 
+        //if (obj.manager) return;
 
-        //foreach (GameObject obj in Razao)
-        //    switchState(obj);
+        foreach (GameObject obj in Razao)
+            switchState(obj);
 
-        //foreach (GameObject obj in Emocao)
-        //    switchState(obj);
+        foreach (GameObject obj in Emocao)
+            switchState(obj);
     }
 
     public void switchState(GameObject obj) => obj.SetActive(!obj.activeSelf);     // Inverte o estado do objeto em questão
@@ -81,12 +81,10 @@ public class RazaoEEmocao : MonoBehaviour
 #if UNITY_EDITOR
 
 
-[CustomEditor(typeof(RazaoEEmocao))]
+[CustomEditor(typeof(RazaoEEmocao)),CanEditMultipleObjects]
 public class REEditor : Editor
 {
     private RazaoEEmocao baseScript;
-
-    private List<RazaoEEmocao> objs;
 
     void Awake()
     {
@@ -94,40 +92,18 @@ public class REEditor : Editor
     }
     public override void OnInspectorGUI()
     {
-        baseScript.manager = EditorGUILayout.BeginToggleGroup("Manager", baseScript.manager);
-        if (baseScript.manager)
+        base.OnInspectorGUI();
+
+        GUILayout.Space(10);
+
+        GUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Mudar Realidade"))
         {
-            GUILayout.BeginHorizontal();
-
-            if (GUILayout.Button("Mudar Realidade"))
-            {
-                objs = GetAllObjectsOnlyInScene();
-
-                foreach (RazaoEEmocao obj in objs)
-                {
-                    if (obj.manager) return;
-                    obj.gameObject.SetActive(!obj.gameObject.activeSelf);
-                }
-
-            }
-
-            GUILayout.EndHorizontal();
-
-        }
-        EditorGUILayout.EndToggleGroup();
-    }
-
-    List<RazaoEEmocao> GetAllObjectsOnlyInScene()
-    {
-        List<RazaoEEmocao> objectsInScene = new List<RazaoEEmocao>();
-
-        foreach (RazaoEEmocao go in Resources.FindObjectsOfTypeAll(typeof(RazaoEEmocao)) as RazaoEEmocao[])
-        {
-            if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-                objectsInScene.Add(go);
+            baseScript.razaoEEmocao();
         }
 
-        return objectsInScene;
+        GUILayout.EndHorizontal();
     }
 }
 

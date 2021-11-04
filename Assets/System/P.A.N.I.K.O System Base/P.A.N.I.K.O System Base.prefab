@@ -500,6 +500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a368d6d72a560d468cc57fb58ff0e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextHUBState: 0
 --- !u!1 &7628706930989590613
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,6 +567,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2174545570440450156}
     m_Modifications:
+    - target: {fileID: 86562527, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
+      propertyPath: volumeLayer.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738453313, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
+      propertyPath: isGlobal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1867443150, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
+      propertyPath: volumeTrigger
+      value: 
+      objectReference: {fileID: 2174545569319237567}
     - target: {fileID: 8076343096655940214, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: edgeDetectMaterial
       value: 
@@ -630,6 +643,11 @@ PrefabInstance:
     - {fileID: 1867443151, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
     - {fileID: 86562526, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
+--- !u!4 &2174545569319237567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 86562522, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
+  m_PrefabInstance: {fileID: 2174545569232773477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2174545569319237564 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 86562521, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}

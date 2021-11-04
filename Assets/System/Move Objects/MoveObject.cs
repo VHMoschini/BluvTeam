@@ -34,12 +34,19 @@ public class MoveObject : MonoBehaviour, IInteragivel
     [HideInInspector]
     public bool lockEvent;
 
+    public Material default_Material;
+    public Material highlight_Material;
+
     public void DownLight()
     {
+        if (default_Material != null)
+            GetComponent<MeshRenderer>().material = default_Material;
     }
 
     public void HighLight()
     {
+        if (highlight_Material != null)
+            GetComponent<MeshRenderer>().material = highlight_Material;
     }
 
     public void Interaction()

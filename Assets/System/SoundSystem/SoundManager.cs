@@ -16,28 +16,23 @@ public class SoundManager : MonoBehaviour
     private int integerNumber;
     private float floatingNumber;
 
-    public soundParameters ParameterName;
-
     [SerializeField]
     private FMODUnity.StudioEventEmitter emitter;
 
     void Start()
     {
-        //Debug.Log(ParameterName.ToString());
-
-        emitter = GetComponent<StudioEventEmitter>();
     }
 
     private void Update()
     {
-        //Debug.Log(floatingNumber);
-
-
-        emitter.EventInstance.setParameterByName(ParameterName.ToString(), floatingNumber);
+        emitter.EventInstance.setParameterByName(soundParameters.LayerController.ToString(), floatingNumber);
+        emitter.EventInstance.setParameterByName(soundParameters.Transitions.ToString(), integerNumber);
     }
 
     public void IncrementLayer() => StartCoroutine(fadeNumber());
     public void DecrementLayer() => StartCoroutine(fadeNumber(false));
+
+    public void ChangeTransition(int transitionNumber) => integerNumber = transitionNumber;
 
     IEnumerator fadeNumber(bool toUp = true)
     {

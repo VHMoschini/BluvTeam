@@ -28,19 +28,19 @@ public class RazaoEEmocao : MonoBehaviour
         //objs = GetAllObjectsOnlyInScene();
     }
 
-    List<RazaoEEmocao> GetAllObjectsOnlyInScene()
-    {
-        List<RazaoEEmocao> objectsInScene = new List<RazaoEEmocao>();
+    //List<RazaoEEmocao> GetAllObjectsOnlyInScene()
+    //{
+    //    List<RazaoEEmocao> objectsInScene = new List<RazaoEEmocao>();
 
-        foreach (RazaoEEmocao go in Resources.FindObjectsOfTypeAll(typeof(RazaoEEmocao)) as RazaoEEmocao[])
-        {
-            if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-                //if ( !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
-                objectsInScene.Add(go);
-        }
+    //    foreach (RazaoEEmocao go in Resources.FindObjectsOfTypeAll(typeof(RazaoEEmocao)) as RazaoEEmocao[])
+    //    {
+    //        if (!EditorUtility.IsPersistent(go.transform.root.gameObject) && !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+    //            //if ( !(go.hideFlags == HideFlags.NotEditable || go.hideFlags == HideFlags.HideAndDontSave))
+    //            objectsInScene.Add(go);
+    //    }
 
-        return objectsInScene;
-    }
+    //    return objectsInScene;
+    //}
 
     private void Update()
     {

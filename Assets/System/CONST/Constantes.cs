@@ -15,6 +15,16 @@ public class Constantes
     //SystemManager.cs - Estado Atual do HUB
     public static string HUB_STATE = "HUB_STATE";
 
+    // SOUND
+    // Volume Master
+
+    // Voume Musica
+    // Volume SFX
+    // Volume Voz
+
+    // Variavel de Layer da musica
+    // Variavel de transição
+
 }
 
 

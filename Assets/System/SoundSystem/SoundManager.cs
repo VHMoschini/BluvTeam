@@ -25,13 +25,12 @@ public class SoundManager : MonoBehaviour
     {
         //Debug.Log(ParameterName.ToString());
 
-        emitter = GetComponent<StudioEventEmitter>();
+        //emitter = GetComponent<StudioEventEmitter>();
     }
 
     private void Update()
     {
         //Debug.Log(floatingNumber);
-
 
         emitter.EventInstance.setParameterByName(ParameterName.ToString(), floatingNumber);
     }

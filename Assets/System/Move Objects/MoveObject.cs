@@ -42,8 +42,8 @@ public class MoveObject : MonoBehaviour, IInteragivel
 
 
     [Header("FMOD SOUND")]
-    public string FMOD_Highlight_Event; // COLOCAR CAMINHO DEFAULT PARA EVENTO DE HIGHLIGHT 
-    public string FMOD_Interact_Event;  // COLOCAR CAMINHO DEFAULT PARA EVENTO DE INTERAÇÃO 
+    public string FMOD_Highlight_Event = "event:/SFX/Interactions/External/HighlightSFX"; // COLOCAR CAMINHO DEFAULT PARA EVENTO DE HIGHLIGHT 
+    public string FMOD_Interact_Event = "event:/SFX/Interactions/External/Momentum";  // COLOCAR CAMINHO DEFAULT PARA EVENTO DE INTERAÇÃO 
 
     private FMODUnity.StudioEventEmitter emitter;
 

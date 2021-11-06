@@ -37,13 +37,13 @@ public class MoveObject : MonoBehaviour, IInteragivel
     public bool lockEvent;
 
     [Header("MATERIAL SWAP")]
-    public Material default_Material;
+    public Material default_Material; 
     public Material highlight_Material;
 
 
     [Header("FMOD SOUND")]
-    public string FMOD_Highlight_Event;
-    public string FMOD_Interact_Event;
+    public string FMOD_Highlight_Event; // COLOCAR CAMINHO DEFAULT PARA EVENTO DE HIGHLIGHT 
+    public string FMOD_Interact_Event;  // COLOCAR CAMINHO DEFAULT PARA EVENTO DE INTERAÇÃO 
 
     private FMODUnity.StudioEventEmitter emitter;
 

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using FMODUnity;
+
 
 public class MoveObject : MonoBehaviour, IInteragivel
 {
@@ -34,23 +36,50 @@ public class MoveObject : MonoBehaviour, IInteragivel
     [HideInInspector]
     public bool lockEvent;
 
+    [Header("MATERIAL SWAP")]
     public Material default_Material;
     public Material highlight_Material;
 
+
+    [Header("FMOD SOUND")]
+    public string FMOD_Highlight_Event;
+    public string FMOD_Interact_Event;
+
+    private FMODUnity.StudioEventEmitter emitter;
+
+    void Start()
+    {
+        emitter = GameObject.Find("SFXEmitter").GetComponent<StudioEventEmitter>();
+    }
+
     public void DownLight()
     {
+        emitter.Stop();
+
         if (default_Material != null)
             GetComponent<MeshRenderer>().material = default_Material;
     }
 
     public void HighLight()
     {
+        if (FMOD_Highlight_Event != null)
+        {
+            emitter.Event = FMOD_Highlight_Event;
+            emitter.Play();
+        }
+
         if (highlight_Material != null)
             GetComponent<MeshRenderer>().material = highlight_Material;
     }
 
     public void Interaction()
     {
+        if (FMOD_Interact_Event != null)
+        {
+            emitter.Event = FMOD_Interact_Event;
+            emitter.Play();
+        }
+
         MoveObjectNow();
 
         if (lockEvent) return;      // Uma boolean de controle que desativa ao primeiro evento

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Constantes
 {
@@ -10,21 +11,37 @@ public class Constantes
     // Vision.cs - Sensibilidade do mouse
     public static string SENSIBILITY_SAVE = "SENSIBILITY_SAVE";
 
+    // SOUND
+    // Volume Master
+    public static string MASTER_SAVE = "COLECTABLE_LIST";
+
+    // Variavel de Layer da musica
+    public static string MUSIC_LAYER_SAVE = "COLECTABLE_LIST";
+
+    // Variavel de transição
+    public static string MUSIC_TRANSITION_SAVE = "COLECTABLE_LIST";
+
 
     // GAMEPLAY
     //SystemManager.cs - Estado Atual do HUB
     public static string HUB_STATE = "HUB_STATE";
 
-    // SOUND
-    // Volume Master
+    // COLECIONAVEIS
+    public static string COLECTABLE_LIST = "COLECTABLE_LIST";
 
-    // Voume Musica
-    // Volume SFX
-    // Volume Voz
+    // DELETE_LIST
+    // Lista de chaves que serão reiniciadas quando iniciar o jogo.
+    public static string[] DELETE_LIST = { HUB_STATE, COLECTABLE_LIST };
+}
 
-    // Variavel de Layer da musica
-    // Variavel de transição
-
+[Serializable]
+public enum Colectable
+{
+    Item_Fase_1,
+    Item_Fase_2,
+    Item_Fase_3,
+    Item_Fase_4,
+    Item_Fase_5
 }
 
 

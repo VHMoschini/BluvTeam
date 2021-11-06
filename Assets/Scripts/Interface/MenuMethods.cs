@@ -6,19 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class MenuMethods : MonoBehaviour
 {
-    
-    public Animator transition;
-    public float transitionTime = 1f;
-   public void ChangeScene (string nameScene)
+    [SerializeField] private Animator transition;
+    [SerializeField] private float transitionTime = 1f;
+    public void ChangeScene(string nameScene)
     {
-       StartCoroutine(LoadLevel(nameScene));
+        var coroutine = LoadLevel(nameScene);
+        StartCoroutine(coroutine);
     }
-       public void FecharJogo()
+    public void FecharJogo()
     {
         Application.Quit();
     }
 
-    IEnumerator LoadLevel(string nameScene )
+    IEnumerator LoadLevel(string nameScene)
     {
         transition.SetTrigger("Start");
 

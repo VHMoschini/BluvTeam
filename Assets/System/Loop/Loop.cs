@@ -67,15 +67,15 @@ public class LoopEditor : Editor
     }
     public override void OnInspectorGUI()
     {
-        //base.DrawDefaultInspector();
+        base.DrawDefaultInspector();
 
-        baseScript.isLimited = EditorGUILayout.BeginToggleGroup("isLimited", baseScript.isLimited);
-        if (baseScript.isLimited)
-        {
-            baseScript.loopLife = EditorGUILayout.IntField("Loop life", baseScript.loopLife);
-            //baseScript.loopLife = life;
-        }
-        EditorGUILayout.EndToggleGroup();
+        //baseScript.isLimited = EditorGUILayout.BeginToggleGroup("isLimited", baseScript.isLimited);
+        //if (baseScript.isLimited)
+        //{
+        //    baseScript.loopLife = EditorGUILayout.IntField("Loop life", baseScript.loopLife);
+        //    //baseScript.loopLife = life;
+        //}
+        //EditorGUILayout.EndToggleGroup();
     }
 }
 

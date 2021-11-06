@@ -42,30 +42,53 @@ public class MoveObject : MonoBehaviour, IInteragivel
 
 
     [Header("FMOD SOUND")]
+    [FMODUnity.EventRef]
     public string FMOD_Highlight_Event = "event:/SFX/Interactions/External/HighlightSFX"; // COLOCAR CAMINHO DEFAULT PARA EVENTO DE HIGHLIGHT 
+    [FMODUnity.EventRef]
     public string FMOD_Interact_Event = "event:/SFX/Interactions/External/Momentum";  // COLOCAR CAMINHO DEFAULT PARA EVENTO DE INTERAÇÃO 
 
     private FMODUnity.StudioEventEmitter emitter;
 
+    private FMOD.Studio.EventInstance highlight;
+    private FMOD.Studio.EventInstance Interact;
+
+
+
     void Start()
     {
-        emitter = GameObject.Find("SFXEmitter").GetComponent<StudioEventEmitter>();
+        //emitter = GameObject.Find("SFXEmitter").GetComponent<StudioEventEmitter>();
+
+        //highlight = FMODUnity.RuntimeManager.CreateInstance(FMOD_Highlight_Event);
+        //Interact = FMODUnity.RuntimeManager.CreateInstance(FMOD_Interact_Event);
     }
 
     public void DownLight()
     {
-        emitter.Stop();
+        //emitter.Stop();
+        //highlight.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        //SOUND_CONTROL = false;
+        //Debug.Log("DOWNLIGHT");
+
+
 
         if (default_Material != null)
             GetComponent<MeshRenderer>().material = default_Material;
     }
 
+    bool SOUND_CONTROL ;
+
     public void HighLight()
     {
-        if (FMOD_Highlight_Event != null)
+        if (FMOD_Highlight_Event != null && !SOUND_CONTROL)
         {
-            emitter.Event = FMOD_Highlight_Event;
-            emitter.Play();
+            //FMODUnity.RuntimeManager.PlayOneShot(FMOD_Highlight_Event,Vector3.zero);
+
+            //emitter.Event = FMOD_Highlight_Event;
+            //emitter.Play();
+
+            //Debug.Log("HIGHLIGHT");
+            //highlight.start();
+            //SOUND_CONTROL = true;
         }
 
         if (highlight_Material != null)
@@ -76,8 +99,10 @@ public class MoveObject : MonoBehaviour, IInteragivel
     {
         if (FMOD_Interact_Event != null)
         {
-            emitter.Event = FMOD_Interact_Event;
-            emitter.Play();
+            //emitter.Event = FMOD_Interact_Event;
+            //emitter.Play();
+
+            //Interact.start();
         }
 
         MoveObjectNow();

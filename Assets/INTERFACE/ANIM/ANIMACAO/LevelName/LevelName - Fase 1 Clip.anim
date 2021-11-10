@@ -913,6 +913,13 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
+    functionName: LockPlayer
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
     functionName: IncrementLayer
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -921,6 +928,13 @@ AnimationClip:
     messageOptions: 0
   - time: 4.5
     functionName: DecrementLayer
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 6.016667
+    functionName: UnlockPlayer
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -43,8 +43,6 @@ public enum Colectable
     Item_Fase_4,
     Item_Fase_5
 }
-
-
 public enum HUBStatus
 {
     anim_01, // Ao iniciar o jogo a primeira animação de introdução

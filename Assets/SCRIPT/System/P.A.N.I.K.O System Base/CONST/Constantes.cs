@@ -45,6 +45,7 @@ public enum Colectable
 }
 public enum HUBStatus
 {
+    none,
     anim_01, // Ao iniciar o jogo a primeira animação de introdução
     anim_02, // Ao sair do hospital  
     anim_03, // Ao sair da casa, na segunda fase

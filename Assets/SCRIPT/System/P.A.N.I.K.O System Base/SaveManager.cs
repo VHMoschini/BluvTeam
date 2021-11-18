@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SaveManager : MonoBehaviour
 {
-    [Header("ITEM COLECIONAVEL")]
-    [Tooltip("Item coletavel da fase em questão")]
-    public Colectable Coletavel;
+    //[Header("ITEM COLECIONAVEL")]
+    //[Tooltip("Item coletavel da fase em questão")]
+    //public Colectable Coletavel;
 
 
     void Start()
@@ -19,7 +19,7 @@ public class SaveManager : MonoBehaviour
         
     }
 
-    public void SAVE_COLECIONAVEL()
+    public void SAVE_COLECIONAVEL(Colectable Coletavel)
     {
         const string EMPTY_STRING = "EMPTY";
 

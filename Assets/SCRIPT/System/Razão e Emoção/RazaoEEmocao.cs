@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Playables;
 
 // Interface externa da classe
 //      => Bloquear a mudança para o jogador 
@@ -13,6 +14,8 @@ public class RazaoEEmocao : MonoBehaviour
 {
     public List<GameObject> Razao;      // Objetos da razão
     public List<GameObject> Emocao;     // Objestos da emoção
+
+    public PlayableDirector PD;
 
     //public static List<RazaoEEmocao> objs = new List<RazaoEEmocao>();
 
@@ -51,6 +54,24 @@ public class RazaoEEmocao : MonoBehaviour
     }
 
     public void razaoEEmocao()
+    {
+        //foreach (RazaoEEmocao obj in objs)
+        //{
+        //    switchState(obj.gameObject);
+        //}
+
+        //if (obj.manager) return;
+
+        //foreach (GameObject obj in Razao)
+        //    switchState(obj);
+
+        //foreach (GameObject obj in Emocao)
+        //    switchState(obj);
+
+        PD.Play();
+    }
+
+    public void animationReality()
     {
         //foreach (RazaoEEmocao obj in objs)
         //{

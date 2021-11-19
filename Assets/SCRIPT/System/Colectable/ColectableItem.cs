@@ -17,6 +17,7 @@ public class ColectableItem : MonoBehaviour, IInteragivel
     {
         saveTool = GetComponent<SaveTools>();
         notification = FindObjectOfType<ColectableNotification>();
+
     }
 
     public void DownLight()

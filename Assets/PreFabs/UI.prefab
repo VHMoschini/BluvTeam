@@ -1102,6 +1102,8 @@ GameObject:
   - component: {fileID: 7770137584859455053}
   - component: {fileID: 5010545051652481800}
   - component: {fileID: 2667578469613756568}
+  - component: {fileID: 2478626459319165513}
+  - component: {fileID: 8177833918027269143}
   m_Layer: 0
   m_Name: Blink
   m_TagString: Untagged
@@ -1156,7 +1158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4818b2005aeb460469a1c199e7b405c4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f577282eb01cb6e4186c3ca10eab941f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1185,6 +1187,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2478626459319165513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3860338493221464883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c4342fe49f6f544b3d3396060a0905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArmsAnimationOne: {fileID: 22100000, guid: 053cc6e0754cb2e41850c65361303b59, type: 2}
+  ArmsAnimationTwo: {fileID: 0}
+--- !u!114 &8177833918027269143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3860338493221464883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cbbe44e941c2b043a4047e578c76cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4066644605798314440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2051,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c4342fe49f6f544b3d3396060a0905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ArmsAnimationOne: {fileID: 0}
+  ArmsAnimationTwo: {fileID: 0}
 --- !u!225 &358065949598284530
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3112,13 +3142,15 @@ PlayableDirector:
   m_GameObject: {fileID: 5670654523162714318}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: dce64394218306f48976982166c0f787, type: 2}
-  m_InitialState: 1
+  m_PlayableAsset: {fileID: 11400000, guid: 3fe9aa71065375047b538ccea7b853de, type: 2}
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -5633473688236931466, guid: dce64394218306f48976982166c0f787, type: 2}
+    value: {fileID: 2667578469613756568}
+  - key: {fileID: -5633473688236931466, guid: 3fe9aa71065375047b538ccea7b853de, type: 2}
     value: {fileID: 2667578469613756568}
   m_ExposedReferences:
     m_References: []

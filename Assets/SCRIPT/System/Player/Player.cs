@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -11,6 +12,9 @@ public class Player : MonoBehaviour
 
     private bool lockState;
     private Visao head;
+
+    [Header("ARMS ANIMATION")]
+    public Animator arms;
 
     void Start()
     {
@@ -59,6 +63,15 @@ public class Player : MonoBehaviour
     {
         lockState = false;
         head.UnlockHead();
+    }
+
+    public void playSnapShot(AnimatorOverrideController anim)
+    {
+        if(arms.runtimeAnimatorController != anim)
+            arms.runtimeAnimatorController = anim;
+
+
+        arms.SetTrigger("SnapShot");
     }
 
 }

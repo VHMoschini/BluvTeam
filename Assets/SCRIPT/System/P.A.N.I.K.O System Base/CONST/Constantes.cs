@@ -54,3 +54,9 @@ public enum HUBStatus
 
     anim_06 // Animação final do jogo, quando sai da quinta fase
 }
+
+public enum ArmsAnimation
+{
+    REALITYCHANGER,
+    INTERACTION
+}

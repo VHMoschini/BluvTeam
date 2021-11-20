@@ -17,6 +17,12 @@ public class RazaoEEmocao : MonoBehaviour
 
     public PlayableDirector PD;
 
+    [Space(10)]
+
+    public PlayableAsset TransitionWithArms;
+    public PlayableAsset TransitionWithoutArms;
+
+
     //public static List<RazaoEEmocao> objs = new List<RazaoEEmocao>();
 
     //public bool manager;
@@ -51,24 +57,28 @@ public class RazaoEEmocao : MonoBehaviour
         //{
         //    razaoEEmocao();
         //}
+
     }
 
     public void razaoEEmocao()
     {
-        //foreach (RazaoEEmocao obj in objs)
-        //{
-        //    switchState(obj.gameObject);
-        //}
+        /*
+         Trocar o clip e dar play na timeline
+         */
 
-        //if (obj.manager) return;
 
-        //foreach (GameObject obj in Razao)
-        //    switchState(obj);
+        //PD.playableAsset
 
-        //foreach (GameObject obj in Emocao)
-        //    switchState(obj);
-
-        PD.Play();
+        if (Razao[0].activeSelf == false)
+        {
+            PD.playableAsset = TransitionWithoutArms;
+            PD.Play();
+        }
+        else
+        {
+            PD.playableAsset = TransitionWithArms;
+            PD.Play();
+        }
     }
 
     public void animationReality()
@@ -102,7 +112,7 @@ public class RazaoEEmocao : MonoBehaviour
 #if UNITY_EDITOR
 
 
-[CustomEditor(typeof(RazaoEEmocao)),CanEditMultipleObjects]
+[CustomEditor(typeof(RazaoEEmocao)), CanEditMultipleObjects]
 public class REEditor : Editor
 {
     private RazaoEEmocao baseScript;

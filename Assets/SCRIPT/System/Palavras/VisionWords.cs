@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
@@ -16,18 +17,34 @@ public class VisionWords : MonoBehaviour
 
     [Space(10)]
 
+    [Header("Objeto que precise ser movimentado")]
+    public MoveObject objectToMove;       
+
     public GameObject[] WordsInObjects;
+
+    [Header("WORD MATERIAL")]
+    public Material wordsMaterial;
+
+    [ColorUsage(true, true)]
+    public Color highlightColorDefault;
+    [ColorUsage(true, true)]
+    public Color highlightColor;
+
+
+    [Space(10)]
 
     public UnityEvent FindWord;
 
-    [Header("Objeto que precise ser movimentado")]
-    public MoveObject objectToMove;       
 
     private IEnumerator coroutine;
     private bool execution;
 
+    private Transform playerPos;
+
+
     private void Start()
     {
+        playerPos = FindObjectOfType<Player>().transform;
         coroutine = HoldCooldown(holdTime);
     }
 
@@ -43,8 +60,25 @@ public class VisionWords : MonoBehaviour
 
                 StartCoroutine(coroutine);
             }
+
         }
     }
+
+    private void Update()
+    {
+        var dist = Vector3.Distance(transform.position, playerPos.position);
+        var color = Color.Lerp(highlightColor, highlightColorDefault, dist / 3);
+        wordsMaterial.SetColor("_FaceColor", color);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+    }
+
     IEnumerator HoldCooldown(float _holdTime)
     {
         execution = true;
@@ -57,6 +91,8 @@ public class VisionWords : MonoBehaviour
 
         FindWord.Invoke();
     }
+
+
 }
 
 #if UNITY_EDITOR

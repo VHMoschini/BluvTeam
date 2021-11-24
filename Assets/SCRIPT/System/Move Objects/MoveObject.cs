@@ -5,13 +5,8 @@ using UnityEngine.Events;
 using FMODUnity;
 
 
-public class MoveObject : MonoBehaviour, IInteragivel
+public class MoveObject : InteractionBase
 {
-    // [ Pra implementar a interface deve ser feito essa implementação ]
-    [Space(10)]
-    public bool Interagivel = true;
-    bool IInteragivel.interagivel { get => Interagivel; }
-
     [Header("Transform Inicial")]
     [SerializeField] public Vector3 p_Inicial = Vector3.zero;
     [SerializeField] public Vector3 r_Inicial = Vector3.zero;
@@ -36,9 +31,9 @@ public class MoveObject : MonoBehaviour, IInteragivel
     [HideInInspector]
     public bool lockEvent;
 
-    [Header("MATERIAL SWAP")]
-    public Material default_Material; 
-    public Material highlight_Material;
+    //[Header("MATERIAL SWAP")]
+    //public Material default_Material; 
+    //public Material highlight_Material;
 
 
     [Header("FMOD SOUND")]
@@ -52,59 +47,8 @@ public class MoveObject : MonoBehaviour, IInteragivel
     private FMOD.Studio.EventInstance highlight;
     private FMOD.Studio.EventInstance Interact;
 
-
-
-    void Start()
+    public override void Interaction()
     {
-        //emitter = GameObject.Find("SFXEmitter").GetComponent<StudioEventEmitter>();
-
-        //highlight = FMODUnity.RuntimeManager.CreateInstance(FMOD_Highlight_Event);
-        //Interact = FMODUnity.RuntimeManager.CreateInstance(FMOD_Interact_Event);
-    }
-
-    public void DownLight()
-    {
-        //emitter.Stop();
-        //highlight.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-        //SOUND_CONTROL = false;
-        //Debug.Log("DOWNLIGHT");
-
-
-
-        if (default_Material != null)
-            GetComponent<MeshRenderer>().material = default_Material;
-    }
-
-    bool SOUND_CONTROL ;
-
-    public void HighLight()
-    {
-        if (FMOD_Highlight_Event != null && !SOUND_CONTROL)
-        {
-            //FMODUnity.RuntimeManager.PlayOneShot(FMOD_Highlight_Event,Vector3.zero);
-
-            //emitter.Event = FMOD_Highlight_Event;
-            //emitter.Play();
-
-            //Debug.Log("HIGHLIGHT");
-            //highlight.start();
-            //SOUND_CONTROL = true;
-        }
-
-        if (highlight_Material != null)
-            GetComponent<MeshRenderer>().material = highlight_Material;
-    }
-
-    public void Interaction()
-    {
-        if (FMOD_Interact_Event != null)
-        {
-            //emitter.Event = FMOD_Interact_Event;
-            //emitter.Play();
-
-            //Interact.start();
-        }
-
         MoveObjectNow();
 
         if (lockEvent) return;      // Uma boolean de controle que desativa ao primeiro evento

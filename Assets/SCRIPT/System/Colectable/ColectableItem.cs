@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SaveTools))]
-public class ColectableItem : MonoBehaviour, IInteragivel
+public class ColectableItem : InteractionBase
 {
-    [HideInInspector]
-    public bool interagivel => true;
-
     public Colectable coletavel;
 
     private SaveTools saveTool;
@@ -17,31 +14,15 @@ public class ColectableItem : MonoBehaviour, IInteragivel
     {
         saveTool = GetComponent<SaveTools>();
         notification = FindObjectOfType<ColectableNotification>();
-
     }
 
-    public void DownLight()
-    {
-    }
-
-    public void HighLight()
-    {
-    }
-
-    public void Interaction()
+    public override void Interaction()
     {
         saveTool.saveColectable(coletavel);
-        //Debug.Log( PlayerPrefs.GetString(Constantes.COLECTABLE_LIST));
 
         if (notification != null)
             notification.Notificate((int)coletavel);
 
         gameObject.SetActive(false); // alterar para fade out mais bonito
-    }
-
-
-    void Update()
-    {
-        
     }
 }

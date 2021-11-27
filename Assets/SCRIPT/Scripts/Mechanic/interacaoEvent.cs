@@ -8,7 +8,9 @@ public class interacaoEvent : MonoBehaviour, IInteragivel
     // [ Pra implementar a interface deve ser feito essa implementação ]
     [Space(10)]
     public bool Interagivel = true;
-    bool IInteragivel.interagivel { get => Interagivel; }
+    //bool IInteragivel.interagivel { get => Interagivel; }
+    public virtual bool interagivel { get; set; }
+
 
     [SerializeField] private Material defaultMaterial;
     [SerializeField] private Material highlightedMaterial;

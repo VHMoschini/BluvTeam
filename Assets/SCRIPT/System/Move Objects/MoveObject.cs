@@ -7,6 +7,7 @@ using FMODUnity;
 
 public class MoveObject : InteractionBase
 {
+
     [Header("Transform Inicial")]
     [SerializeField] public Vector3 p_Inicial = Vector3.zero;
     [SerializeField] public Vector3 r_Inicial = Vector3.zero;
@@ -16,6 +17,7 @@ public class MoveObject : InteractionBase
     [SerializeField] public Vector3 r_final = Vector3.zero;
 
     [Space(10)]
+    public bool interactable = true;
 
     [SerializeField] float speed = 200;
 
@@ -47,6 +49,12 @@ public class MoveObject : InteractionBase
     private FMOD.Studio.EventInstance highlight;
     private FMOD.Studio.EventInstance Interact;
 
+    private void Start()
+    {
+        interagivel = interactable;
+
+    }
+
     public override void Interaction()
     {
         MoveObjectNow();
@@ -54,6 +62,7 @@ public class MoveObject : InteractionBase
         if (lockEvent) return;      // Uma boolean de controle que desativa ao primeiro evento
         lockEvent = true;           // Caso queira que continue podendo lançar o evento
         onInteract.Invoke();        // Coloque esse script no evento e sette a variavel pra false.
+
     }
 
     public void MoveObjectNow()

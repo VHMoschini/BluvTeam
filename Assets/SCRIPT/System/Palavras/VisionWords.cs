@@ -15,10 +15,15 @@ public class VisionWords : MonoBehaviour
 
     public GameObject words;
 
+    [Header("ANIMAÇÃO DE SAIDA: BLINK")]
+
+    public bool blink = true;
+    public GameObject blinkObject;
+
     [Space(10)]
 
     [Header("Objeto que precise ser movimentado")]
-    public MoveObject objectToMove;       
+    public MoveObject objectToMove;
 
     public GameObject[] WordsInObjects;
 
@@ -46,6 +51,8 @@ public class VisionWords : MonoBehaviour
     {
         playerPos = FindObjectOfType<Player>().transform;
         coroutine = HoldCooldown(holdTime);
+
+        wordsMaterial = Resources.Load<Material>("FONTS/NewTegomin-Regular SDF Palavras");
     }
 
     private void OnTriggerStay(Collider other)
@@ -54,7 +61,7 @@ public class VisionWords : MonoBehaviour
         {
             var actualRotation = other.transform.eulerAngles.y;
 
-            if (actualRotation > rightAngle - range && actualRotation < rightAngle + range && !execution )
+            if (actualRotation > rightAngle - range && actualRotation < rightAngle + range && !execution)
             {
                 if (objectToMove != null && objectToMove.isInInitialPosition) return;
 
@@ -85,11 +92,18 @@ public class VisionWords : MonoBehaviour
 
         yield return new WaitForSeconds(_holdTime);
 
-        gameObject.SetActive(false);
-        words.SetActive(false);
-        for(int n = 0; n< WordsInObjects.Length; n++) WordsInObjects[n].SetActive(false);
 
-        FindWord.Invoke();
+        //DESAPARECIMENTO DAS PALAVRAS
+        if (blink) blinkObject.SetActive(true);
+        else
+        {
+            words.SetActive(false);
+            FindWord.Invoke();
+        }
+
+        for (int n = 0; n < WordsInObjects.Length; n++) WordsInObjects[n].SetActive(false);
+
+        gameObject.SetActive(false);
     }
 
 

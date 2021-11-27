@@ -8,7 +8,10 @@ public class InteractionBase : MonoBehaviour,IInteragivel
     protected Material mat_default;
 
     private MeshRenderer _renderer;
-    public bool interagivel => true;
+    //public virtual bool interagivel => true;
+
+    public virtual bool interagivel { get ; set; }
+
     void Awake()
     {
         mat_default = Resources.Load<Material>("MATERIALS/INTERACAO_DEFAULT");
@@ -31,6 +34,4 @@ public class InteractionBase : MonoBehaviour,IInteragivel
     {
         throw new System.NotImplementedException();
     }
-
-
 }

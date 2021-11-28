@@ -48,6 +48,8 @@ public class SpeakAndSubtittleController : MonoBehaviour
             }
             else
             {
+                i.OnEnd.Invoke();
+
                 isActive = false;
                 current_index = 0;
 

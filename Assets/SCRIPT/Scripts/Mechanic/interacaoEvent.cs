@@ -20,6 +20,8 @@ public class interacaoEvent : MonoBehaviour, IInteragivel
     private void Start()
     {
         mr = GetComponent<MeshRenderer>();
+
+        interagivel = true;
     }
 
     public void DownLight()

@@ -14,6 +14,8 @@ public class ColectableItem : InteractionBase
     {
         saveTool = GetComponent<SaveTools>();
         notification = FindObjectOfType<ColectableNotification>();
+
+        interagivel = true;
     }
 
     public override void Interaction()

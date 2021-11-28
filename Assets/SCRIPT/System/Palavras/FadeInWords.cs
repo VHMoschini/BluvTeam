@@ -9,10 +9,9 @@ public class FadeInWords : MonoBehaviour
 
     public bool OnStart = true;
 
-    private void Start()
+    private void Awake()
     {
         word = GetComponent<TMP_Text>();
-        
     }
 
     void OnEnable()

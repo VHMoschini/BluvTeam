@@ -38,21 +38,23 @@ public class MoveObject : InteractionBase
     //public Material highlight_Material;
 
 
-    [Header("FMOD SOUND")]
-    [FMODUnity.EventRef]
-    public string FMOD_Highlight_Event = "event:/SFX/Interactions/External/HighlightSFX"; // COLOCAR CAMINHO DEFAULT PARA EVENTO DE HIGHLIGHT 
-    [FMODUnity.EventRef]
-    public string FMOD_Interact_Event = "event:/SFX/Interactions/External/Momentum";  // COLOCAR CAMINHO DEFAULT PARA EVENTO DE INTERAÇÃO 
+    //[Header("FMOD SOUND")]
+    //[FMODUnity.EventRef]
+    //public string FMOD_Highlight_Event = "event:/SFX/Interactions/External/HighlightSFX"; // COLOCAR CAMINHO DEFAULT PARA EVENTO DE HIGHLIGHT 
+    //[FMODUnity.EventRef]
+    //public string FMOD_Interact_Event = "event:/SFX/Interactions/External/Momentum";  // COLOCAR CAMINHO DEFAULT PARA EVENTO DE INTERAÇÃO 
 
-    private FMODUnity.StudioEventEmitter emitter;
+    //private FMODUnity.StudioEventEmitter emitter;
 
-    private FMOD.Studio.EventInstance highlight;
-    private FMOD.Studio.EventInstance Interact;
+    //private FMOD.Studio.EventInstance highlight;
+    //private FMOD.Studio.EventInstance Interact;
 
     private void Start()
     {
         interagivel = interactable;
 
+        targetPosition = p_Inicial;
+        targetRotation = r_Inicial;
     }
 
     public override void Interaction()
@@ -67,6 +69,7 @@ public class MoveObject : InteractionBase
 
     public void MoveObjectNow()
     {
+
         isInInitialPosition = !isInInitialPosition;
 
         StopAllCoroutines();
@@ -81,6 +84,9 @@ public class MoveObject : InteractionBase
             targetPosition = p_final;
             targetRotation = r_final;
         }
+
+
+
 
         StartCoroutine(Lerp());
     }

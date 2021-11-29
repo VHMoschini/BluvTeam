@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{0bc27c8c-25cc-425d-8ce2-fd39c86a5dfe}">
 		<property name="name">
-			<value>Terapeuta D5-1</value>
+			<value>Terapeuta D5-1 2D</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{13d967ee-0952-42b4-a38c-a68d0212d865}" />
 	<object class="SingleSound" id="{0ef1943b-52b5-4cfb-adf3-321a55a4e34a}">
 		<property name="length">
-			<value>4.7804081632653057</value>
+			<value>5.5</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e3937484-602b-412c-99bd-c9f3dc103e7c}</destination>
@@ -115,6 +115,7 @@
 			<destination>{0d6ace94-98c1-4681-b947-8109414ec87e}</destination>
 			<destination>{5dca0df7-9482-4682-a3e5-be7a09480814}</destination>
 			<destination>{c06bc0b5-e911-4fa9-b682-d6135aa375fe}</destination>
+			<destination>{3d148cec-7e63-4acd-a012-6bf03442e5d4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8b212e77-24e2-4707-bf18-312813133e60}" />
@@ -140,6 +141,11 @@
 	<object class="SFXReverbEffect" id="{c06bc0b5-e911-4fa9-b682-d6135aa375fe}">
 		<property name="decayTime">
 			<value>950</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{3d148cec-7e63-4acd-a012-6bf03442e5d4}">
+		<property name="gain">
+			<value>-80</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{65120e57-c15c-4423-82f8-cac8c59f1efc}" />

@@ -5,7 +5,7 @@
 			<value>HighlightSFX</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a8029386-e152-42c5-bcfd-d9d066353153}</destination>
@@ -177,6 +177,7 @@
 	<object class="MixerBusEffectChain" id="{9ee1333b-bfde-431a-9cc9-bc5df846e78e}">
 		<relationship name="effects">
 			<destination>{ffe1b4d0-80c4-4afe-8b75-51501555829a}</destination>
+			<destination>{5587ece9-91f3-4267-ba27-73f0f3d7d0a1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc761414-2045-40ad-bc98-3467781f590f}" />
@@ -197,6 +198,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ffe1b4d0-80c4-4afe-8b75-51501555829a}" />
+	<object class="SpatialiserEffect" id="{5587ece9-91f3-4267-ba27-73f0f3d7d0a1}" />
 	<object class="MixerBusFader" id="{249231e4-78f9-4072-b835-50e38d74f437}" />
 	<object class="AutomationPoint" id="{9392582f-5f49-43f0-8971-cb8c21418532}">
 		<property name="position">

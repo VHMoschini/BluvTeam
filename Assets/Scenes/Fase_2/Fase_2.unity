@@ -3343,6 +3343,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 050835bb0363aed42ad6a0dd8c6172a5, type: 3}
   m_PrefabInstance: {fileID: 85197934}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &85820139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 85820140}
+  m_Layer: 0
+  m_Name: Dublagem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &85820140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85820139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 279.55273, y: 157.72629, z: -8.949498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1693481674}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &91896032
 Mesh:
   m_ObjectHideFlags: 0
@@ -4903,21 +4934,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 9.840942, y: -0.74368286, z: -4.2036896}
   r_Inicial: {x: 0, y: 270.00018, z: 0}
   p_final: {x: 5.1, y: -0.74368286, z: -4.2036896}
   r_final: {x: 0, y: 270.00018, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!4 &124578242 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7332946571278003099, guid: 72fc0616efb9e7848b063f949d49cc53, type: 3}
@@ -6754,21 +6781,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 280.91556, y: 158.00284, z: 0.35553908}
   r_Inicial: {x: -0, y: 90.00053, z: -0}
   p_final: {x: 286.08, y: 158.00284, z: 0.36}
   r_final: {x: -0, y: 90.00053, z: -0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!4 &176935329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: af6547d5314d39a43a5abd0eb2ff9d20, type: 3}
@@ -9867,21 +9890,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 281.93686, y: 160.50392, z: 16.368458}
   r_Inicial: {x: 0, y: 270, z: 0}
   p_final: {x: 282.92, y: 160.50392, z: 15.849872}
   r_final: {x: -0, y: 90, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!4 &231953576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c17c821c5e48eef478ef33bfcd3379be, type: 3}
@@ -10128,8 +10147,14 @@ MonoBehaviour:
   rightAngle: 0
   holdTime: 1
   words: {fileID: 747473586}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1784747259342868143}
   WordsInObjects:
   - {fileID: 615420347}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -10217,7 +10242,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 1784747259342868143}
 --- !u!114 &237900092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15657,21 +15681,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 280.90564, y: 158.00284, z: -2.0672586}
   r_Inicial: {x: -0, y: 90.00053, z: -0}
   p_final: {x: 280.90564, y: 158.00284, z: -0.891}
   r_final: {x: -0, y: 90.00053, z: -0}
+  interactable: 1
   speed: 1
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1001 &386683372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17415,7 +17435,13 @@ MonoBehaviour:
   rightAngle: 102.3345
   holdTime: 1
   words: {fileID: 748981287}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1648551701}
   WordsInObjects: []
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -17527,7 +17553,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  objectToMove: {fileID: 1648551701}
 --- !u!114 &441924815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18510,21 +18535,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 287.4484, y: 158.0156, z: -6.3330603}
   r_Inicial: {x: -0, y: 0, z: 0}
   p_final: {x: 288.7306, y: 158.0156, z: -7.5501595}
   r_final: {x: -0, y: 180, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1001 &479192459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18947,21 +18968,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 307.91107, y: 158.002, z: -10.896}
   r_Inicial: {x: 0, y: 270.00018, z: 0}
   p_final: {x: 304.86, y: 158.002, z: -10.9}
   r_final: {x: 0, y: 270.00018, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!64 &521717072
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34169,21 +34186,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 18.156036, y: -3.0671234, z: -1.4158251}
   r_Inicial: {x: -0, y: 180.00034, z: 0}
   p_final: {x: 14.12, y: -3.0671234, z: -1.42}
   r_final: {x: -0, y: 180.00034, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1 &1052293007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 209652735246480834, guid: 7795766f5b4188a41b8ce066bae7f329, type: 3}
@@ -35299,21 +35312,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 289.9, y: 160.50476, z: 0.32}
   r_Inicial: {x: -0, y: 90.00119, z: -0}
   p_final: {x: 288.91162, y: 160.50476, z: 0.8288926}
   r_final: {x: -0, y: 270, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1001 &1087767716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38397,8 +38406,14 @@ MonoBehaviour:
   rightAngle: 180
   holdTime: 1
   words: {fileID: 966159413}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1076287726}
   WordsInObjects:
   - {fileID: 57422768}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -38426,7 +38441,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  objectToMove: {fileID: 1076287726}
 --- !u!1 &1202422202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1713150221715240820, guid: 741cb9307c9cc614089374b0cd2f6436, type: 3}
@@ -38563,21 +38577,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 290.89902, y: 158.002, z: 16.299}
   r_Inicial: {x: 0, y: 270.00018, z: 0}
   p_final: {x: 286.03, y: 158.002, z: 16.3}
   r_final: {x: 0, y: 270.00018, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!64 &1204291544
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40465,7 +40475,13 @@ MonoBehaviour:
   rightAngle: 90
   holdTime: 1
   words: {fileID: 2055299999}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1349033826}
   WordsInObjects: []
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -40565,7 +40581,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 1349033826}
 --- !u!4 &1238289384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fbbbc935618123f44bbe04962a1e5c8d, type: 3}
@@ -44245,21 +44260,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 290.9091, y: 158.002, z: 18.661798}
   r_Inicial: {x: 0, y: 270.00018, z: 0}
   p_final: {x: 290.9091, y: 158.002, z: 17.83}
   r_final: {x: 0, y: 270.00018, z: 0}
+  interactable: 1
   speed: 1
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1001 &1350007872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44635,8 +44646,14 @@ MonoBehaviour:
   rightAngle: 91.4898
   holdTime: 1
   words: {fileID: 1101790085}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 8164078558692478389}
   WordsInObjects:
   - {fileID: 1497123329}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -44748,7 +44765,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 8164078558692478389}
 --- !u!114 &1374569106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47733,21 +47749,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: -6.312, y: 1.037, z: -15.48}
   r_Inicial: {x: -0, y: 179.99966, z: -0}
   p_final: {x: -11.36, y: 1.0370026, z: -11.98}
   r_final: {x: 0, y: 260.11926, z: 0}
+  interactable: 1
   speed: 1
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!43 &1442424650
 Mesh:
   m_ObjectHideFlags: 0
@@ -47988,7 +48000,13 @@ MonoBehaviour:
   rightAngle: 270
   holdTime: 1
   words: {fileID: 2005309775}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 385979232}
   WordsInObjects: []
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -48016,7 +48034,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 385979232}
 --- !u!1001 &1449490623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49901,21 +49918,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 281.4538, y: 159.50195, z: -3.4804635}
   r_Inicial: {x: -0, y: 180, z: 0}
   p_final: {x: 281.40564, y: 159.50195, z: -2.7202618}
   r_final: {x: -0, y: 0.0003380943, z: -0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1001 &1476084311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55643,21 +55656,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 0, y: 0, z: 0}
   r_Inicial: {x: 0, y: 0, z: 0}
   p_final: {x: 290.4091, y: 159.50111, z: 19.422798}
   r_final: {x: -0, y: 180, z: -0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1 &1647936051
 GameObject:
   m_ObjectHideFlags: 0
@@ -56095,21 +56104,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 17.006622, y: -2.2851257, z: -6.899791}
   r_Inicial: {x: 0, y: 180.00035, z: 0}
   p_final: {x: 11.67, y: -2.2851257, z: -6.9}
   r_final: {x: 0, y: 180.00035, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1 &1652757726
 GameObject:
   m_ObjectHideFlags: 0
@@ -57840,6 +57845,68 @@ RectTransform:
   m_AnchoredPosition: {x: -0.163, y: 0.35}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1693481673
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 85820140}
+    m_Modifications:
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -279.55273
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -157.72629
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.949498
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Speak_and_subtitle_Controller
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &1693481674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 1693481673}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693923219
 GameObject:
   m_ObjectHideFlags: 0
@@ -57917,8 +57984,14 @@ MonoBehaviour:
   rightAngle: 0
   holdTime: 1
   words: {fileID: 1074133602}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 121978157}
   WordsInObjects:
   - {fileID: 1792309286}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -58006,7 +58079,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 121978157}
 --- !u!114 &1693923224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58665,21 +58737,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: 0.96536255, y: -0.9476776, z: -0.19339561}
   r_Inicial: {x: -0, y: 0, z: 0}
   p_final: {x: 0.12, y: -0.9476776, z: -0.19339561}
   r_final: {x: -0, y: 0, z: 0}
+  interactable: 1
   speed: 1
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1 &1711750160
 GameObject:
   m_ObjectHideFlags: 0
@@ -67809,8 +67877,14 @@ MonoBehaviour:
   rightAngle: 270
   holdTime: 1
   words: {fileID: 1470620649}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1437714811}
   WordsInObjects:
   - {fileID: 1135679497}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -67838,7 +67912,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 1437714811}
 --- !u!114 &1933770461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70383,8 +70456,14 @@ MonoBehaviour:
   rightAngle: 182.55206
   holdTime: 1
   words: {fileID: 1532140493}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1784747259715165438}
   WordsInObjects:
   - {fileID: 1395528816}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -70448,7 +70527,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 1784747259715165438}
 --- !u!114 &2037347560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72292,8 +72370,14 @@ MonoBehaviour:
   rightAngle: 181.97246
   holdTime: 1
   words: {fileID: 801037160}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 4238721387052286206}
   WordsInObjects:
   - {fileID: 1377788297}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -72345,7 +72429,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 4238721387052286206}
 --- !u!114 &2115447064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74446,8 +74529,14 @@ MonoBehaviour:
   rightAngle: 206.14783
   holdTime: 1
   words: {fileID: 4553049255917454172}
+  blink: 1
+  blinkObject: {fileID: 0}
+  objectToMove: {fileID: 1711298159}
   WordsInObjects:
   - {fileID: 1693120089}
+  wordsMaterial: {fileID: 0}
+  highlightColorDefault: {r: 0, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0, g: 0, b: 0, a: 0}
   FindWord:
     m_PersistentCalls:
       m_Calls:
@@ -74475,7 +74564,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  objectToMove: {fileID: 1711298159}
 --- !u!4 &543450652355082276
 Transform:
   m_ObjectHideFlags: 0
@@ -74934,21 +75022,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: -0, y: 0, z: 0}
   r_Inicial: {x: -0, y: -0, z: -0}
   p_final: {x: -0, y: 0, z: 0}
   r_final: {x: -0, y: 180, z: 0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1 &1784747259715165437
 GameObject:
   m_ObjectHideFlags: 0
@@ -74981,21 +75065,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: -7.459015, y: -0.9320679, z: 1.9756994}
   r_Inicial: {x: -0, y: 270.00018, z: 0}
   p_final: {x: -7.459015, y: -0.9320679, z: 1.9756994}
   r_final: {x: -0, y: 90.39602, z: -0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!33 &2823090746465429445
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -75089,21 +75169,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: -0, y: 0, z: 0}
   r_Inicial: {x: -0, y: -0, z: -0}
   p_final: {x: 0, y: 0, z: 5.28}
   r_final: {x: -0, y: -0, z: -0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!65 &4553049255476552672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75977,21 +76053,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96197d8f916a6f0438c1b2a1828fcf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Interagivel: 1
   p_Inicial: {x: -0, y: 0, z: 0}
   r_Inicial: {x: -0, y: -0, z: -0}
   p_final: {x: -1.5070817, y: 0, z: 9.152644}
   r_final: {x: -0, y: 179.54071, z: -0}
+  interactable: 1
   speed: 200
   isInInitialPosition: 1
   onInteract:
     m_PersistentCalls:
       m_Calls: []
   lockEvent: 0
-  default_Material: {fileID: 0}
-  highlight_Material: {fileID: 0}
-  FMOD_Highlight_Event: event:/SFX/Interactions/External/HighlightSFX
-  FMOD_Interact_Event: event:/SFX/Interactions/External/Momentum
 --- !u!1 &8164078559815225276
 GameObject:
   m_ObjectHideFlags: 0

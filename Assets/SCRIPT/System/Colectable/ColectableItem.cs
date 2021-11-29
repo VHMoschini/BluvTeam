@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(SaveTools))]
 public class ColectableItem : InteractionBase
@@ -9,6 +10,9 @@ public class ColectableItem : InteractionBase
 
     private SaveTools saveTool;
     private ColectableNotification notification;
+
+    [Header("EVENTS")]
+    public UnityEvent OnInteraction;
 
     void Start()
     {
@@ -20,6 +24,8 @@ public class ColectableItem : InteractionBase
 
     public override void Interaction()
     {
+        OnInteraction.Invoke();
+
         saveTool.saveColectable(coletavel);
 
         if (notification != null)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class Player : MonoBehaviour
 
     [Header("ARMS ANIMATION")]
     public Animator arms;
+
+    [Header("EVENTS")]
+    public UnityEvent OnWalkStart;
+    public UnityEvent OnWalkStop;
 
     void Start()
     {
@@ -31,6 +36,12 @@ public class Player : MonoBehaviour
     private void Mover()
     {
         if (lockState) return;
+
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+            OnWalkStart.Invoke();
+
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+            OnWalkStop.Invoke();
 
         Vector3 move = Vector3.zero;
         move += Input.GetAxis("Horizontal") * transform.right * playerVelocity;

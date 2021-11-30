@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{dd9f3a95-8d92-40f6-94b0-a3e66b77d251}">
 		<property name="name">
-			<value>Player D5-4</value>
+			<value>Player D5-4.1</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{15aed3c4-ae91-4827-bc61-03921351701c}</destination>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{84c77b16-fa53-42bb-82c8-452c194d6635}" />
 	<object class="MarkerTrack" id="{bf3ec6ca-7971-4f8f-aa92-7474e9ebcaf8}" />
 	<object class="GroupTrack" id="{3349ccc8-9e09-4a44-8c76-0d70c8a8cb1b}">
+		<relationship name="modules">
+			<destination>{58bdee58-501f-4d66-826f-cad3ec3a7876}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d740b39c-73c6-4abb-a4de-2f6b026240d8}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{0d36e486-e3d4-48be-858a-a90729f238dd}" />
+	<object class="Timeline" id="{0d36e486-e3d4-48be-858a-a90729f238dd}">
+		<relationship name="modules">
+			<destination>{58bdee58-501f-4d66-826f-cad3ec3a7876}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{745deb01-77de-480c-8825-681de1c8ddeb}">
 		<relationship name="effectChain">
 			<destination>{dbc40fc2-0389-4a54-a3ca-45b074450d80}</destination>
@@ -81,6 +88,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7c68ecee-9f54-4dd8-931b-1f98b2dc8cd6}" />
+	<object class="SingleSound" id="{58bdee58-501f-4d66-826f-cad3ec3a7876}">
+		<property name="length">
+			<value>6.1776783411852936</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.22167487684729092</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{0ba05f3c-0788-45f3-a969-3c4cda2fe49e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{d740b39c-73c6-4abb-a4de-2f6b026240d8}">
 		<property name="name">
 			<value>Audio 1</value>

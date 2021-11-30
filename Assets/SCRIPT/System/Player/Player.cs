@@ -21,11 +21,14 @@ public class Player : MonoBehaviour
     public UnityEvent OnWalkStart;
     public UnityEvent OnWalkStop;
 
+    private void Awake()
+    {
+        head = transform.GetChild(1).GetComponent<Visao>(); // Pega o script visao do segundo filho - Rendering
+    }
+
     void Start()
     {
         controlador = GetComponent<CharacterController>();
-
-        head = transform.GetChild(1).GetComponent<Visao>(); // Pega o script visao do segundo filho - Rendering
     }
 
     void Update()

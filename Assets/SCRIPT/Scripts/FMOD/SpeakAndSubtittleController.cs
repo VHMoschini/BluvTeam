@@ -18,6 +18,8 @@ public class SpeakAndSubtittleController : MonoBehaviour
     [Space(10)]
     [SerializeField] public List<AudioConfig> AUDIO_CONFIG = new List<AudioConfig>();
 
+    private static SpeakAndSubtittleController actual_Emitter;
+
     void Start()
     {
         wordControler = sub.gameObject.GetComponent<FadeInWords>();
@@ -53,6 +55,8 @@ public class SpeakAndSubtittleController : MonoBehaviour
                 isActive = false;
                 current_index = 0;
 
+                actual_Emitter = null;
+
                 wordControler.FadeOut();
             }
         }
@@ -60,14 +64,39 @@ public class SpeakAndSubtittleController : MonoBehaviour
 
     public void StartPlay(int index)
     {
+        if (actual_Emitter != null && actual_Emitter != this) actual_Emitter.EndVoice();
+
         AudioConfig i = AUDIO_CONFIG[index];
 
         i.audioEvent.start();
 
         sub.text = i.Subtitle;
-        if (!isActive) wordControler.FadeIn();
+        if (!isActive)
+        {
+            wordControler.FadeIn();
+            actual_Emitter = this;
+        }
 
         isActive = true;
+    }
+
+    public void EndVoice()
+    {
+        AudioConfig i = AUDIO_CONFIG[current_index];
+        i.audioEvent.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
+        isActive = false;
+        current_index = 0;
+
+        wordControler.FadeOut();
+    }
+
+    private FMOD.Studio.PLAYBACK_STATE GetVoiceState(FMOD.Studio.EventInstance instance)
+    {
+        FMOD.Studio.PLAYBACK_STATE _actualState;
+        instance.getPlaybackState(out _actualState);
+
+        return _actualState;
     }
 }
 

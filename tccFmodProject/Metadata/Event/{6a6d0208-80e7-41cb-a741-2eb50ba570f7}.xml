@@ -5,7 +5,7 @@
 			<value>Terapeuta I2-2.2</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{75c93a67-7dbd-4271-a98f-8be010ba7cad}</destination>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{bd06bbcb-29a0-4984-a9b6-c3b79cdbdcdf}" />
 	<object class="MarkerTrack" id="{966e45a3-3a55-4090-b95f-18b2887d5502}" />
 	<object class="GroupTrack" id="{68f603b6-d7b6-4dff-99b9-f01bca983503}">
+		<relationship name="modules">
+			<destination>{c380e9f9-6eff-4328-aabb-3c559ed5bdfc}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b5c03418-f2c3-40dd-9024-6dc3f46d6a12}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{3c023d9e-bac9-4412-b6f7-1e430e4162d1}" />
+	<object class="Timeline" id="{3c023d9e-bac9-4412-b6f7-1e430e4162d1}">
+		<relationship name="modules">
+			<destination>{c380e9f9-6eff-4328-aabb-3c559ed5bdfc}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{7bbf4e13-d458-4343-b1db-efc9aa04be9c}">
 		<relationship name="effectChain">
 			<destination>{fcee57a0-c3bf-4b97-b696-6ce8e2f77b33}</destination>
@@ -81,6 +88,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a2d488df-2595-4086-bc45-48becce74a5a}" />
+	<object class="SingleSound" id="{c380e9f9-6eff-4328-aabb-3c559ed5bdfc}">
+		<property name="length">
+			<value>15.5</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>8.5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{9e924e63-9b9b-4b78-ae67-578edbd68ed1}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{b5c03418-f2c3-40dd-9024-6dc3f46d6a12}">
 		<property name="name">
 			<value>Audio 1</value>

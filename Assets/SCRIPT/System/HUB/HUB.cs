@@ -22,6 +22,8 @@ public class HUB : MonoBehaviour
 
     public void PlayCutscene()
     {
+        Debug.Log(actual_status);
+
         HUB_Status_Item i = DIALOGS.Find(h => h.HUB_Status == actual_status);
 
         i.Dialog.StartPlay();
@@ -33,4 +35,6 @@ public class HUB_Status_Item
 {
     [SerializeField] public HUBStatus HUB_Status;
     [SerializeField] public SpeakAndSubtittleController Dialog;
+
+    [SerializeField] public GameObject Portal;
 }

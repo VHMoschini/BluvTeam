@@ -23,6 +23,7 @@ public class SpeakAndSubtittleController : MonoBehaviour
     void Start()
     {
         wordControler = sub.gameObject.GetComponent<FadeInWords>();
+        Debug.Log(wordControler);
 
         foreach (AudioConfig i in AUDIO_CONFIG)
         {

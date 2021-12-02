@@ -62,7 +62,7 @@ public class SpeakAndSubtittleController : MonoBehaviour
         }
     }
 
-    public void StartPlay(int index)
+    public void StartPlay(int index = 0)
     {
         if (actual_Emitter != null && actual_Emitter != this) actual_Emitter.EndVoice();
 

@@ -5,10 +5,14 @@ using UnityEngine.Events;
 
 public class AnimationEvent : MonoBehaviour
 {
-    public UnityEvent OnAnimationTrigger ;
+    public UnityEvent OnAnimationTrigger;
     public GameObject parentObject;
 
     public void LaunchEvent() => OnAnimationTrigger.Invoke();
 
-    public void DisableAnimation() => parentObject.SetActive(false);
+    public void DisableAnimation()
+    {
+
+    if(parentObject != null) parentObject.SetActive(false);
+    }
 }

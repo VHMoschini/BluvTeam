@@ -46,13 +46,22 @@ public enum Colectable
 public enum HUBStatus
 {
     none,
-    anim_01, // Ao iniciar o jogo a primeira animação de introdução
-    anim_02, // Ao sair do hospital  
-    anim_03, // Ao sair da casa, na segunda fase
-    anim_04, // Ao sair do metro, terceira fase
-    anim_05, // Ao sair da casa, quarta fase
+    intro_fase_1,
+    final_fase_1,
+    intro_fase_2,
+    final_fase_2, 
+    intro_fase_3,
+    final_fase_3,
+    intro_fase_4,
+    final_fase_4
 
-    anim_06 // Animação final do jogo, quando sai da quinta fase
+    //anim_01, // Ao iniciar o jogo a primeira animação de introdução
+    //anim_02, // Ao sair do hospital  
+    //anim_03, // Ao sair da casa, na segunda fase
+    //anim_04, // Ao sair do metro, terceira fase
+    //anim_05, // Ao sair da casa, quarta fase
+
+    //anim_06 // Animação final do jogo, quando sai da quinta fase
 }
 
 public enum ArmsAnimation

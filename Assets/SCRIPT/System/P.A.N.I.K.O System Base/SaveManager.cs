@@ -8,6 +8,7 @@ public class SaveManager : MonoBehaviour
     //[Tooltip("Item coletavel da fase em questão")]
     //public Colectable Coletavel;
 
+    public HUBStatus NextState;
 
     void Start()
     {
@@ -17,6 +18,11 @@ public class SaveManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void UPDATE_GAME_STATUS()
+    {
+        PlayerPrefs.SetInt(Constantes.HUB_STATE, (int)NextState);
     }
 
     public void SAVE_COLECIONAVEL(Colectable Coletavel)

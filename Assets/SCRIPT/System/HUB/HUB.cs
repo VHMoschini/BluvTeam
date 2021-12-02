@@ -35,6 +35,4 @@ public class HUB_Status_Item
 {
     [SerializeField] public HUBStatus HUB_Status;
     [SerializeField] public SpeakAndSubtittleController Dialog;
-
-    [SerializeField] public GameObject Portal;
 }

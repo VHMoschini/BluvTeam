@@ -919,6 +919,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7942492586440977459}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SensibilityController
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Visao, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6049314401863927227, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

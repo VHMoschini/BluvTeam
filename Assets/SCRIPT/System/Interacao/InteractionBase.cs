@@ -22,12 +22,14 @@ public class InteractionBase : MonoBehaviour,IInteragivel
 
     public virtual void DownLight()
     {
+        if(_renderer != null)
         _renderer.material = mat_default;
     }
 
     public virtual void HighLight()
     {
-        _renderer.material = mat_highlight;
+        if (_renderer != null)
+            _renderer.material = mat_highlight;
     }
 
     public virtual void Interaction()

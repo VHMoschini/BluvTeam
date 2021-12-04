@@ -442,6 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f1fde84de93b5148b9800377194a7fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextState: 0
 --- !u!1 &2687447362598876997
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +698,7 @@ PrefabInstance:
     - target: {fileID: 8076343096783670614, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: sensibilitySlider
       value: 
-      objectReference: {fileID: 6994077939714027951}
+      objectReference: {fileID: 5712949388095214652}
     - target: {fileID: 8076343098121722661, guid: a5b80cb453f186c4f82b159f72ba5fa2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -854,10 +855,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2174545570993708890}
     m_Modifications:
+    - target: {fileID: 1078779043468525996, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271416944186830521, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2643827091871493540, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
       propertyPath: m_SceneBindings.Array.data[2].key
       value: 
       objectReference: {fileID: -5633473688236931466, guid: dce64394218306f48976982166c0f787, type: 2}
+    - target: {fileID: 4316136989467096140, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4807556500561646977, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -906,6 +919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 6049314401863927227, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9161022550049668950, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
       propertyPath: m_MinValue
       value: 1
@@ -921,9 +938,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4807556500561646977, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
   m_PrefabInstance: {fileID: 2174545569651969785}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6994077939714027951 stripped
+--- !u!114 &5712949388095214652 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9161022550049668950, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5865358657863162565, guid: 7c78b62dad18c8d4f8f08a10340b62b0, type: 3}
   m_PrefabInstance: {fileID: 2174545569651969785}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

@@ -10,6 +10,7 @@ public class HUB : MonoBehaviour
 
     private HUBStatus actual_status;
 
+
     private void Awake()
     {
         actual_status = (HUBStatus)PlayerPrefs.GetInt(Constantes.HUB_STATE);
@@ -17,16 +18,31 @@ public class HUB : MonoBehaviour
 
     private void Start()
     {
-        PlayCutscene();
+        StartCoroutine(delayCall());
     }
 
     public void PlayCutscene()
     {
         Debug.Log(actual_status);
 
-        HUB_Status_Item i = DIALOGS.Find(h => h.HUB_Status == actual_status);
+        foreach(HUB_Status_Item s in DIALOGS)
+        {
+            if (s.HUB_Status == actual_status)
+            {
+                Debug.Log("umavez");
+                s.Dialog.StartPlay();
+            }
+        }
 
-        i.Dialog.StartPlay();
+        //HUB_Status_Item i = DIALOGS.Find(h => h.HUB_Status == actual_status);
+
+        //i.Dialog.StartPlay();
+    }
+
+    IEnumerator delayCall()
+    {
+        yield return new WaitForSeconds(1);
+        PlayCutscene();
     }
 }
 

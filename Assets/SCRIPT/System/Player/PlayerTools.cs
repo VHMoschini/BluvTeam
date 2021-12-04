@@ -8,11 +8,19 @@ public class PlayerTools : MonoBehaviour
     public AnimatorOverrideController ArmsAnimationTwo;
 
 
-    private Player player; 
+    private Player player;
     private void Awake() => player = FindObjectOfType<Player>();
 
-    public void LockPlayer() => player.LockPlayer();
-    public void UnlockPlayer() => player.UnlockPlayer();
+    public void LockPlayer()
+    {
+        if (player != null)
+            player.LockPlayer();
+    }
+    public void UnlockPlayer()
+    {
+        if (player != null)
+            player.UnlockPlayer();
+    }
     public void PlaySnapShot() => player.playSnapShot(ArmsAnimationOne);
     //public void PlaySnapShotTwo() => player.playSnapShot(ArmsAnimationTwo);
 

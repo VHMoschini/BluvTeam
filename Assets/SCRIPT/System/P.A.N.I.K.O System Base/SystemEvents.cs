@@ -16,11 +16,14 @@ public class SystemEvents : MonoBehaviour
 
     void Start()
     {
+        StartCoroutine(delayCall());
+    }
+
+    IEnumerator delayCall()
+    {
+        yield return new WaitForSeconds(1);
         OnStartLevel.Invoke();
     }
 
-    void Update()
-    {
-        
-    }
+
 }

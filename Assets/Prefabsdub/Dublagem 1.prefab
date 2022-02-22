@@ -1,0 +1,1121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2238251879674283097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2238251879674283096}
+  m_Layer: 0
+  m_Name: Dublagem 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2238251879674283096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2238251879674283097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6998220324636645230}
+  - {fileID: 6998220324251875315}
+  - {fileID: 6998220325852274826}
+  - {fileID: 6998220326163999697}
+  - {fileID: 6998220324638844192}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2238251879092385072
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2238251879674283096}
+    m_Modifications:
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: startAway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
+      value: 'Thiago: No, it''s not possible... Mom?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
+      value: "\rThiago: Oh no, not that thing again..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Monologos 1-1/Player M1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Monologos 1-2/Player M2-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Fala 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &6998220326163999697 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 2238251879092385072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2238251879267925611
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2238251879674283096}
+    m_Modifications:
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: startAway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
+      value: "\rThiago: My God, what happened here? This is very strange, what should
+        I do, doctor?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
+      value: "\rTherapist: This is part of the process of rebuilding your memories,
+        Thiago. Always focus on what brings you positivity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
+      value: "Terapeuta: E o que mais tinha l\xE1?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
+      value: "Thiago: As paredes tinham aqueles apoiadores de ombro, sabe? Tinham
+        alguns bancos pelo corredor tamb\xE9m... "
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
+      value: "Thiago: O teto era quadriculado de isopor com algumas partes que pareciam
+        sa\xEDdas de ar... Ah, e tinha uma janela na parede de frente de onde eu
+        entrei."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
+      value: "Terapeuta: Era assim mesmo que voc\xEA imaginava o local? Tinha algo
+        a mais?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
+      value: "Thiago: N\xE3o n\xE3o, \xE9 exatamente desse jeito que eu pensei...
+        Caraca, como tudo parece t\xE3o real aqui..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
+      value: 'Terapeuta: Pois bem, pode prosseguir Thiago.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-2/Player D2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-2/Terapeuta D2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[5].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartGrowth
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGrowth
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartGrowth
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Dynamite3D.RealIvy.IvyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Dynamite3D.RealIvy.IvyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Dynamite3D.RealIvy.IvyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Dialogo 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &6998220325852274826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 2238251879267925611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2238251879673822145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2238251879674283096}
+    m_Modifications:
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: startAway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
+      value: 'Thiago: Oh, thank God, I''m feeling much better now!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
+      value: "Thiago: N\xE3o, n\xE3o \xE9 poss\xEDvel... M\xE3e?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Monologos 1-2/Player M2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Monologos 1-1/Player M1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Fala 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &6998220324638844192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 2238251879673822145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2238251879679674767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2238251879674283096}
+    m_Modifications:
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: startAway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
+      value: 'Therapist: Well, Thiago, and what do you remember about this memory?
+        Where were you?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
+      value: 'Thiago: Well, I was in a hospital, and after going through a door I
+        found myself in an L-shaped corridor.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
+      value: 'Therapist: And what else was there?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
+      value: "\rThiago: The walls had those shoulder supports, you know? There were
+        some benches along the aisle too..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
+      value: 'Thiago: The ceiling was styrofoam checkered with some parts that looked
+        like air vents... Oh, and there was a window in the front wall from where
+        I entered.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
+      value: "\rTherapist: Was that really how you imagined the place? Was there
+        anything else?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
+      value: "\rThiago: No no, that's exactly how I thought... Wow, how real everything
+        looks here..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
+      value: 'Therapist: Well then, you can proceed Thiago.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[5].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Player D1-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Dialogo 1-1/Terapeuta D1-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartGrowth
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UnlockPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartGrowth
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MoveObject, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Dynamite3D.RealIvy.IvyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerTools, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Dynamite3D.RealIvy.IvyController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].OnEnd.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].OnEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Dialogo 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &6998220324636645230 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 2238251879679674767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2238251879798221074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2238251879674283096}
+    m_Modifications:
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: startAway
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
+      value: "\rThiago: Hmm, I think my mother is around here."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
+      value: "Thiago: Ah n\xE3o. Essa coisa de novo n\xE3o..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Monologos 1-1/Player M1-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 1/Fase 1/Monologos 1-2/Player M2-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Fala 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &6998220324251875315 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 2238251879798221074}
+  m_PrefabAsset: {fileID: 0}

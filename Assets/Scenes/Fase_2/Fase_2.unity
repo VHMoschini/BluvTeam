@@ -3476,6 +3476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fala 12
       objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
 --- !u!4 &48169879 stripped
@@ -5086,7 +5090,7 @@ Transform:
   - {fileID: 104784484}
   - {fileID: 2062911258}
   m_Father: {fileID: 1264338198}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &89045274
 Mesh:
@@ -13303,6 +13307,10 @@ PrefabInstance:
     - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: m_Name
       value: Fala 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
@@ -22621,6 +22629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fala 10
       objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
 --- !u!4 &410652116 stripped
@@ -26479,6 +26491,160 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495106151}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &496358983
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2062911258}
+    m_Modifications:
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
+      value: "\rThiago: Aaah, yeah, now, doctor. I'm finally in the living room.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
+      value: 'Therapist: I told you Thiago, it was all a matter of time. Is everything
+        ok over there?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
+      value: 'Thiago: ...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
+      value: 'Therapist: Thiago?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
+      value: "Thiago: I don't know what happened, doctor... But this is not my house\r..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
+      value: "\rThiago: No... Not again..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
+      value: "\rTherapist: Calm down Thiago, as I told you, things seem to be real,
+        but everything is just a simple regression. So keep calm and focus."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
+      value: "\rTherapist: What did you most often do in the living room at home?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[8].Subtitle
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[9].Subtitle
+      value: 'Therapist: Well, Thiago, I believe you already know what you can try
+        to do. Try this what you told me.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[2].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[3].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[4].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[5].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[6].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-3.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[7].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[8].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: AUDIO_CONFIG.Array.data[9].VoiceLine
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_Name
+      value: Dialogo 14 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+--- !u!4 &496358984 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9084167780215463649, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+  m_PrefabInstance: {fileID: 496358983}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &500233789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48942,6 +49108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fala 9
       objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
 --- !u!4 &1072239498 stripped
@@ -62839,63 +63009,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b30e71bfe2f026f4fb05d686134f1e8e, type: 3}
---- !u!1001 &1392237261
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1264338198}
-    m_Modifications:
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 279.55273
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 157.72629
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.949498
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945171, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3100276201284945172, guid: 564629cd3b5b3324091b20505e863884, type: 3}
-      propertyPath: m_Name
-      value: Dublagem 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 564629cd3b5b3324091b20505e863884, type: 3}
 --- !u!1 &1393538285
 GameObject:
   m_ObjectHideFlags: 0
@@ -76538,7 +76651,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.size
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
@@ -76546,33 +76659,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: I told you Thiago, it was all a matter of time. Is everything
-        ok over there?'
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: 'Thiago: ...'
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: 'Therapist: Thiago?'
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
-      value: "Thiago: I don't know what happened, doctor... But this is not my house\r..."
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
-      value: "\rThiago: No... Not again..."
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
-      value: "\rTherapist: Calm down Thiago, as I told you, things seem to be real,
-        but everything is just a simple regression. So keep calm and focus."
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
-      value: "\rTherapist: What did you most often do in the living room at home?"
+      value: "\rThiago: As far as I remember... In fact, what most happened here
+        at home was when we moved the furniture in the living room."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[8].Subtitle
@@ -76590,31 +76708,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-1
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-2
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-2
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-3
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[5].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-4
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[6].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-3.1
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[7].VoiceLine
-      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Terapeuta D13-3.2
+      value: event:/Dublagem/FINAL/ATO 2/Fase 2/Dialogo 2-13/Player D13-5
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[8].VoiceLine
@@ -96508,6 +96626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fala 11
       objectReference: {fileID: 0}
+    - target: {fileID: 9084167780215463655, guid: 242f97b140673ef45809379e13258a2f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 242f97b140673ef45809379e13258a2f, type: 3}
 --- !u!4 &2027690618 stripped
@@ -97951,6 +98073,7 @@ Transform:
   - {fileID: 410652116}
   - {fileID: 2027690618}
   - {fileID: 48169879}
+  - {fileID: 496358984}
   m_Father: {fileID: 85820140}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

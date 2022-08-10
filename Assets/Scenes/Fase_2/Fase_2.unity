@@ -3197,12 +3197,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9084167780575989257, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
-      propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
-      value: 'Thiago: Yes! In fact, when I was in what was apparently my room I could
-        see myself. Precisely that person who was sitting on the end of the bed looked
-        a lot like me when I was alone for the first time at home without my parents.'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de208c73682a86742a88cb9f64c1e8f8, type: 3}
 --- !u!114 &38823093 stripped
@@ -3348,8 +3342,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Okay dear, get rid of that past... Calm down, everything will
-        be fine.
+      value: 'Thiago: Pronto carinha, se livra desse passado... Se acalma que vai
+        ficar tudo bem.
 
 '
       objectReference: {fileID: 0}
@@ -4797,170 +4791,6 @@ Mesh:
   m_LocalAABB:
     m_Center: {x: -2.8791833, y: 2.5030823, z: -1.0024879}
     m_Extent: {x: 0.12420893, y: 2.5030823, z: 6.007312}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
---- !u!43 &77338334
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79056
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 8f3740c0000080b4a6f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f8f374040579b10b7875130c0000080b4a6f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f87513040579b10b78f3740c08032a040a5f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f8f3740406e32a040875130c08032a040a5f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f875130406e32a040875130c0000080b4a6f9afc10000803f5d951d2be038c5b5e038c535000000000000803f000080bf0000803f0000803f0000803f0000803fa8f9afc193ff7fb4ac5130c0000000009300e0c10000803f5d959d2ade38c5b5de38c535000000000000803f000080bf0000803f0000803f0000803f0000803f9500e0c11811d92b875130c08032a040a5f9afc10000803f5d959d2ade38c5b5de38c535000000000000803f000080bf0000803f0000803f0000803f0000803fa7f9afc18032a040ac5130c08032a0409300e0c10000803f00000000dc38c5b5dc38c535000000000000803f000080bf0000803f0000803f0000803f0000803f9500e0c18032a040ac5130c0000000009300e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fa14a30c000000000bc3740c0000000009100e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fb13040c000000000ac5130c08032a0409300e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fa14a30c08032a040bc3740c08032a0409100e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fb13040c08032a040bc3740c0000000009100e0c1000080bf000000006eddef356eddefb500000000000080bf000080bf0000803f0000803f0000803f0000803f9400e041000000008f3740c0000080b4a6f9afc1000080bfd6a7bfaa6cddef356cddefb500000000000080bf000080bf0000803f0000803f0000803f0000803fa9f9af41000080b4bc3740c08032a0409100e0c1000080bfd6a7bfaa6cddef356cddefb500000000000080bf000080bf0000803f0000803f0000803f0000803f9400e0418032a0408f3740c08032a040a5f9afc1000080bfd6a73fab69ddef3569ddefb500000000000080bf000080bf0000803f0000803f0000803f0000803fa8f9af418032a0408f3740c08032a040a5f9afc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f8f3740c0a5f9afc1875130c08032a040a5f9afc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f875130c0a5f9afc1bc3740c08032a0409100e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fbc3740c09100e0c1ac5130c08032a0409300e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fac5130c09300e0c1bc3740c0000000009100e0c15ba82bab000080bf15922ab3000080bf5ba82b2b00000000000080bf0000803f0000803f0000803f0000803fbc3740409100e0c1ac5130c0000000009300e0c15ba8abaa000080bf12922ab3000080bf5ba8ab2a00000000000080bf0000803f0000803f0000803f0000803fac5130409300e0c18f3740c0000080b4a6f9afc15ba8abaa000080bf12922ab3000080bf5ba8ab2a00000000000080bf0000803f0000803f0000803f0000803f8f374040a6f9afc1875130c0000080b4a6f9afc100000000000080bf0e922ab3000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f87513040a6f9afc1
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.879189, y: 2.5030823, z: -24.998589}
-    m_Extent: {x: 0.12421286, y: 2.5030823, z: 3.0016918}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -8056,170 +7886,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fce818994201df542928668644df8725, type: 3}
   m_PrefabInstance: {fileID: 139204344}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &141022745
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79032
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 803740c00000000043334040000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f80374040239299357f5130c00000000043334040000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f7f51304023929935803740c08032a0404b334040000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f803740408232a0407f5130c08032a0404b334040000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f7f5130408232a0407f5130c000000000433340400000803fc943a029f59348b4f5934834000000000000803f000080bf0000803f0000803f0000803f0000803f4133404041c35c2a915130c0000000008cc39fc10000803fc9432029f59348b4f5934834c94320120000803f000080bf0000803f0000803f0000803f0000803f8cc39fc141c35c2a7f5130c08032a0404b3340400000803fc9432029f59348b4f5934834c94320120000803f000080bf0000803f0000803f0000803f0000803f493340408032a040915130c08032a0408cc39fc10000803f00000000f59348b4f5934834000000000000803f000080bf0000803f0000803f0000803f0000803f8cc39fc18032a040915130c0000000008cc39fc154d180b700000000000080bf0000803f0000000054d180b7000080bf0000803f0000803f0000803f0000803f8b4c30c000000000913740c0000000008ac39fc154d180b700000000000080bf0000803f0000000054d180b7000080bf0000803f0000803f0000803f0000803f8b3240c000000000915130c08032a0408cc39fc154d180b700000000000080bf0000803f0000000054d180b7000080bf0000803f0000803f0000803f0000803f8b4c30c08032a040913740c08032a0408ac39fc154d180b700000000000080bf0000803f0000000054d180b7000080bf0000803f0000803f0000803f0000803f8b3240c08032a040913740c0000000008ac39fc1000080bf000000004e6f3d344e6f3db400000000000080bf000080bf0000803f0000803f0000803f0000803f8ac39f4100000000803740c00000000043334040000080bf785c17a94e6f3d344e6f3db400000000000080bf000080bf0000803f0000803f0000803f0000803f413340c000000000913740c08032a0408ac39fc1000080bf785c17a94e6f3d344e6f3db400000000000080bf000080bf0000803f0000803f0000803f0000803f8ac39f418032a040803740c08032a0404b334040000080bf785c97a94d6f3d344d6f3db400000000000080bf000080bf0000803f0000803f0000803f0000803f493340c08032a040803740c08032a0404b334040000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f803740c04b3340407f5130c08032a0404b334040000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f7f5130c04b334040913740c08032a0408ac39fc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f913740c08ac39fc1915130c08032a0408cc39fc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f915130c08cc39fc1913740c0000000008ac39fc100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f913740408ac39fc1915130c0000000008cc39fc100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f915130408cc39fc1803740c0000000004333404000000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f80374040433340407f5130c0000000004333404000000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f7f51304043334040
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.8791828, y: 2.5030823, z: -8.483676}
-    m_Extent: {x: 0.12420869, y: 2.5030823, z: 11.486806}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &142635568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8325,45 +7991,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: What''s going on? This was supposed to be my room... Where
-        are my things?'
+      value: "Thiago: O que t\xE1 acontecendo? Aqui era pra t\xE1 o meu quarto...
+        Cad\xEA as minhas coisas?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Thiago: Doctor... WHERE ARE MY THINGS? This isn''t right... it''s not
-        right...'
+      value: "Thiago: Doutor... CAD\xCA AS MINHAS COISAS? Isso n\xE3o t\xE1 certo...
+        n\xE3o t\xE1 certo..."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: 'Therapist: hahahahaha, so...'
+      value: "Terapeuta: hahahahaha, \xE9..."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: 'Thiago: So what? Why are you laughing at me like that? Hmm...'
+      value: "Thiago: \xC9 o que? Porque voc\xEA t\xE1 rindo assim de mim? Hum..."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
-      value: 'Therapist: Keep calm, Thiago, I already imagined you would go through
-        this. Some memories tend to change our personality when we recall them.'
+      value: "Terapeuta: Mantenha a calma, Thiago, eu j\xE1 imaginei que voc\xEA
+        passaria por isso. Algumas mem\xF3rias tendem a mudar nossa personalidade
+        quando as relembramos."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
-      value: "\r\rTherapist: Remember that this is all regression, not the reality
-        as you know it. Think about it, don't you see anything familiar in this room?"
+      value: "Terapeuta: Lembre-se que tudo isso n\xE3o passa de uma regress\xE3o,
+        n\xE3o \xE9 a realidade que voc\xEA conhece. Pense bem, voc\xEA n\xE3o enxerga
+        nada familiar nesse quarto?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
-      value: 'Thiago: Calm down... Calm down, Thiago. Look! I remember that window,
-        Doctor! This is in my room, how cool!'
+      value: 'Thiago: Calma... Se acalma, Thiago. Olha! Eu lembro dessa janela, Doutor!
+        Isso tem no meu quarto, que legal!'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
-      value: 'Therapist: That''s right, my dear, calm down. Remember, always look
-        for positive words that relieve you.'
+      value: "Terapeuta: Isso, meu caro, v\xE1 se acalmando. Lembre-se, procure sempre
+        por palavras positivas e que te aliviem."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[8].Subtitle
-      value: 'Thiago: Thank you doctor, I know what to do now.'
+      value: "Thiago: Obrigado doutor, j\xE1 sei o que fazer agora."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -13504,10 +13172,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Damn, I didn''t remember it being so easy to move things here
-        at home.
-
-'
+      value: "Thiago: Caramba, n\xE3o lembrava de ser t\xE3o f\xE1cil mover as coisas
+        aqui em casa.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -14689,13 +14355,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Wow, I''m much better. What a good tip huh, doctor? Oh yes.
+      value: 'Thiago: Nossa, eu to bem melhor. Que dica boa hein, doutor? Ai sim.
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: You''re welcome, Thiago.'
+      value: 'Terapeuta: Disponha, Thiago.'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
@@ -17303,170 +16969,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &301022595
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79068
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 903740c0000080b4cacc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f9b3740407577acb5905130c0000080b4c9cc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f9b5130407577acb5903740c08032a040c2cc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f9b3740407e32a040905130c08032a040c1cc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f9b5130407e32a040905130c0000080b4c9cc2fc00000803f000000000000000000000000000000000000803f000080bf0000803f0000803f0000803f0000803fc9cc2fc0000080b4905130c0000080b49fcf9fc10000803f000000000000000000000000000000000000803f000080bf0000803f0000803f0000803f0000803f9fcf9fc1000080b4905130c08032a040c1cc2fc00000803f000000000000000000000000000000000000803f000080bf0000803f0000803f0000803f0000803fc1cc2fc08032a040905130c08032a0409fcf9fc10000803f000000000000000000000000000000000000803f000080bf0000803f0000803f0000803f0000803f9fcf9fc18032a040905130c0000080b49fcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f834730c0000080b4903740c0000080b49bcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f832d40c0000080b4905130c08032a0409fcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f834730c08032a040903740c08032a0409bcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f832d40c08032a040903740c0000080b49bcf9fc1000080bf00000000000000000000000000000000000080bf000080bf0000803f0000803f0000803f0000803f9bcf9f41000080b4903740c0000080b4cacc2fc0000080bf00000000000000000000000000000000000080bf000080bf0000803f0000803f0000803f0000803fcacc2f40000080b4903740c08032a0409bcf9fc1000080bf00000000000000000000000000000000000080bf000080bf0000803f0000803f0000803f0000803f9bcf9f418032a040903740c08032a040c2cc2fc0000080bf00000000000000000000000000000000000080bf000080bf0000803f0000803f0000803f0000803fc2cc2f408032a040903740c08032a040c2cc2fc0000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f903740c0c2cc2fc0905130c08032a040c1cc2fc0000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f905130c0c1cc2fc0903740c08032a0409bcf9fc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f903740c09bcf9fc1905130c08032a0409fcf9fc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f905130c09fcf9fc1903740c0000080b49bcf9fc100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f903740409bcf9fc1905130c0000080b49fcf9fc100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f905130409fcf9fc1903740c0000080b4cacc2fc000000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f90374040cacc2fc0905130c0000080b4c9cc2fc000000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f90513040c9cc2fc0
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.8791847, y: 2.5030823, z: -11.361625}
-    m_Extent: {x: 0.12420654, y: 2.5030823, z: 8.614753}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &301157159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17480,19 +16982,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Aaaah where''s my room man, what a pain.'
+      value: "Thiago: Aaaah cad\xEA meu quarto cara, que saco."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: Well, just a tip, you follow whether you want to or not,
-        but isn''t there anything there that reminds you of something you''ve had
-        or have?'
+      value: "Terapeuta: Bom, s\xF3 uma dica, voc\xEA segue se quiser ou n\xE3o,
+        mas n\xE3o tem nada ai que te lembra algo que voc\xEA j\xE1 teve ou tem?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: 'Thiago: You''re really right, this window still looks like the one
-        I have, this beanbag was in the last room and this wardrobe looks a lot like
-        mine. I know what to do now, doctor, thanks.'
+      value: "Thiago: Realmente voc\xEA tem raz\xE3o, essa janela ainda parece a
+        que eu tenho, esse puff tava no quarto passado e esse guarda roupa parece
+        muito com o meu. J\xE1 sei o que fazer agora, doutor, valeu."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
@@ -19848,15 +19349,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: And once again I went back to the beginning of the corridor,
-        my mind must have something against my living room, it''s not possible.
-
-'
+      value: "Thiago: E mais uma vez voltei pro come\xE7o do corredor, minha mente
+        deve ter algo contra a sala da minha casa, n\xE3o \xE9 poss\xEDvel.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: "Therapist: Maybe your mind is trying to tell you something else before
-        entering this other environment Thiago, think about it\u2026"
+      value: "Terapeuta: Talvez sua mente esteja tentando te contar algo a mais antes
+        de entrar nesse outro ambiente Thiago, pense nisso\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
@@ -21388,7 +20887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: This time, go doctor, I'm going to enter my room now."
+      value: 'Thiago: Dessa vez vai doutor, eu vou entrar na minha sala agora.'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -22988,7 +22487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: How much I miss them\u2026 I just wanted to see them again\u2026\n"
+      value: "Thiago: Quanta saudade deles\u2026 S\xF3 queria v\xEA-los novamente...\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -27948,13 +27447,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Huh? What is it? I swore that now I was going to enter the
-        living room... Doctor? Are you around? What''s going on?'
+      value: "Thiago: H\xE3? O que \xE9 isso? Eu jurava que agora ia entrar na sala
+        de casa... Doutor? T\xE1 por a\xED? O que que t\xE1 acontecendo?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Thiago: Hello? That''s crazy bro, I''m going to have to play this shit
-        by myself by the way.'
+      value: 'Thiago: Alou? Que loucura mano, eu vou ter que tocar essa parada sozinho
+        pelo jeito.'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
@@ -33122,43 +32621,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: That''s it, that''s it! Haha, I knew I was doing the right
-        thing!'
+      value: "Thiago: \xC9 isso, \xC9 ISSO! Haha, eu sabia que tava fazendo a coisa
+        certa! "
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: "\rTherapist: Congratulations, Thiago! I see you are already understanding
-        how the process works, right?"
+      value: "Terapeuta: Parab\xE9ns, Thiago! Vejo que voc\xEA j\xE1 est\xE1 entendendo
+        como funciona o processo, certo?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "\rThiago: Uh, did you sleep there, doctor? I thought I was going to
-        get lost here alone bro, what happened?"
+      value: "Thiago: U\xE9, dormiu a\xED foi doutor? Eu achei que ia ficar perdido
+        aqui sozinho mano, o que foi que aconteceu?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: 'Therapist: I apologize, but it was necessary, Thiago. For a brief moment
-        I had to leave for you to get used to it and remember this whole situation.'
+      value: "Terapeuta: Pe\xE7o perd\xE3o, mas foi necess\xE1rio, Thiago. Por um
+        breve momento eu tive que me ausentar pra voc\xEA ir se acostumando e relembrando
+        toda essa situa\xE7\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
-      value: 'Therapist: And this is necessary for you to get used to it and know
-        what to do on your own at these times.'
+      value: "Terapeuta: E isso \xE9 necess\xE1rio para que voc\xEA v\xE1 se acostumando
+        e saiba o que fazer sozinho nessas ocasi\xF5es."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
-      value: 'Thiago: I understand, doctor, but man... I thought I wouldn''t be able
-        to fix the situation, and I thought everything would get worse than it already
-        was.'
+      value: "Thiago: Eu entendo doutor, mas poxa... Eu achei que n\xE3o ia conseguir
+        arrumar a situa\xE7\xE3o, e achei que tudo ia ficar pior do que j\xE1 estava."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
-      value: "\rTherapist: Don't worry Thiago, I will never let things get out of
-        hand. Now calm down and continue what we've already started."
+      value: "Terapeuta: N\xE3o se preocupe, Thiago, jamais deixarei as coisas sa\xEDrem
+        do controle. Agora se acalme e continue o que j\xE1 come\xE7amos."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
-      value: "\rThiago: All right, I trust you. Come on."
+      value: "Thiago: T\xE1 certo, eu confio em voc\xEA. Bora l\xE1."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -33652,19 +33151,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rTherapist: Remember to control your emotions Thiago, you already
-        know what can happen."
+      value: "Terapeuta: Lembre-se de controlar suas emo\xE7\xF5es Thiago, voc\xEA
+        j\xE1 sabe o que pode acontecer."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Thiago: Oh, don''t be silly. What the ****, isn''t this my room yet?
-
-
-'
+      value: "Thiago: Ah n\xE3o enche cara. Que ****, esse ainda n\xE3o \xE9 o meu
+        quarto?\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "\rTherapist: Look at your mouth, boy! Hahahaha"
+      value: 'Terapeuta: Olha a boca, rapaz! Hahahaha.'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
@@ -39053,170 +38550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!43 &824976392
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79044
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 8d3740c0000080b4cacc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f983740407577acb58d5130c0000080b4c9cc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f985130407577acb58d3740c08032a040c2cc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f983740407e32a0408d5130c08032a040c1cc2fc054d180b53d8cccb40000803f000080bf0000000054d180b5000080bf0000803f0000803f0000803f0000803f985130407e32a0408d5130c0000080b4c9cc2fc00000803fa2768e287f4c32b37f4c3233000000000000803f000080bf0000803f0000803f0000803f0000803fc9cc2fc0fdff7fb4905130c0000080b49fcf9fc10000803fa2760e287e4c32b37e4c3233000000000000803f000080bf0000803f0000803f0000803f0000803f9fcf9fc1fdff7fb48d5130c08032a040c1cc2fc00000803fa2760e287e4c32b37e4c3233000000000000803f000080bf0000803f0000803f0000803f0000803fc1cc2fc08032a040905130c08032a0409fcf9fc10000803f000000007e4c32b37e4c3233000000000000803f000080bf0000803f0000803f0000803f0000803f9fcf9fc18032a040905130c0000080b49fcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f834730c0000080b4903740c0000080b49bcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f832d40c0000080b4905130c08032a0409fcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f834730c08032a040903740c08032a0409bcf9fc154d100b800000000000080bf0000803f0000000054d100b8000080bf0000803f0000803f0000803f0000803f832d40c08032a040903740c0000080b49bcf9fc1000080bf00000000844c3233844c32b300000000000080bf000080bf0000803f0000803f0000803f0000803f9bcf9f41000080b48d3740c0000080b4cacc2fc0000080bfa5760ea8844c3233844c32b3a5760e90000080bf000080bf0000803f0000803f0000803f0000803fcbcc2f40000080b4903740c08032a0409bcf9fc1000080bfa5760ea8844c3233844c32b3a5760e90000080bf000080bf0000803f0000803f0000803f0000803f9bcf9f418032a0408d3740c08032a040c2cc2fc0000080bfa5768ea8834c3233834c32b3a5768e90000080bf000080bf0000803f0000803f0000803f0000803fc3cc2f408032a0408d3740c08032a040c2cc2fc0000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f8d3740c0c2cc2fc08d5130c08032a040c1cc2fc0000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f8d5130c0c1cc2fc0903740c08032a0409bcf9fc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f903740c09bcf9fc1905130c08032a0409fcf9fc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f905130c09fcf9fc1903740c0000080b49bcf9fc100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f903740409bcf9fc1905130c0000080b49fcf9fc100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f905130409fcf9fc18d3740c0000080b4cacc2fc000000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f8d374040cacc2fc08d5130c0000080b4c9cc2fc000000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f8d513040c9cc2fc0
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.8791842, y: 2.5030823, z: -11.361625}
-    m_Extent: {x: 0.1242069, y: 2.5030823, z: 8.614753}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &825567031
 GameObject:
   m_ObjectHideFlags: 0
@@ -40223,12 +39556,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: A-The kitchen is all on fire! What do I have to do now?'
+      value: 'Thiago: A-A cozinha ta toda em chamas! O que eu tenho que fazer agora?'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: "\rThiago: ...Ok, I'll follow what the doctor said about always finding
-        positive words, maybe this will help me now."
+      value: 'Thiago: ...Ok, eu vou seguir o que o doutor falou de encontrar sempre
+        as palavras positivas, talvez isso me ajude agora.'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
@@ -40695,7 +40028,7 @@ Transform:
   - {fileID: 925876004}
   - {fileID: 1819724619}
   m_Father: {fileID: 38823094}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871646711
 GameObject:
@@ -40917,170 +40250,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!43 &875987072
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79104
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 893740c000008040aff987c113d18037d9f7a9b50000803f000080bf0000000013d18037000080bf0000803f0000803f0000803f0000803f42334040a6ff7f40815130c000008040b1f987c113d10037d9f729b60000803f000080bf0000000013d10037000080bf0000803f0000803f0000803f0000803f3a4d3040a6ff7f40893740c08032b040aef987c113d10037d9f729b60000803f000080bf0000000013d10037000080bf0000803f0000803f0000803f0000803f423340405332b040815130c08032b040aef987c100000000c5f37eb60000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f3a4d30405332b040815130c000008040b1f987c10000803f531e5c2ce8055db5e8055d35000000000000803f000080bf0000803f0000803f0000803f0000803fb2f987c100008040a75130c0000080409b00e0c10000803ff2be122be2055db5e2055d35000000000000803f000080bf0000803f0000803f0000803f0000803f9c00e0c100008040815130c08032b040aef987c10000803ff2be122be2055db5e2055d35000000000000803f000080bf0000803f0000803f0000803f0000803faff987c18032b040a75130c08032b0409d00e0c10000803fdabe12acdc055db5dc055d35000000000000803f000080bf0000803f0000803f0000803f0000803f9e00e0c18032b040a75130c0000080409b00e0c1d2d080b7d8f729b6000080bf0000803fd8f7a922d2d080b7000080bf0000803f0000803f0000803f0000803f9c4a30c095008040b73740c0000080409900e0c13b39c1b7d8f7a9b5000080bf0000803fd8f729223b39c1b7000080bf0000803f0000803f0000803f0000803fac3040c095008040a75130c08032b0409d00e0c13b39c1b7d8f7a9b5000080bf0000803fd8f729223b39c1b7000080bf0000803f0000803f0000803f0000803f9c4a30c01533b040b73740c08032b0409900e0c1d2d000b800000000000080bf0000803f00000000d2d000b8000080bf0000803f0000803f0000803f0000803fac3040c01533b040b73740c0000080409900e0c1000080bf00000000f2c68535f2c685b500000000000080bf000080bf0000803f0000803f0000803f0000803f9b00e04100008040893740c000008040aff987c1000080bfb2a331abf2c68535f2c685b5b2a3b195000080bf000080bf0000803f0000803f0000803f0000803fb1f9874100008040b73740c08032b0409900e0c1000080bfb2a331abf2c68535f2c685b5b2a3b195000080bf000080bf0000803f0000803f0000803f0000803f9b00e0418032b040893740c08032b040aef987c1000080bfb2a3b1abf1c68535f1c685b5b2a33196000080bf000080bf0000803f0000803f0000803f0000803fb0f987418032b040893740c08032b040aef987c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f893740c0aef987c1815130c08032b040aef987c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f815130c0aef987c1b73740c08032b0409900e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fb73740c09900e0c1a75130c08032b0409d00e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fa75130c09d00e0c1b73740c0000080409900e0c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803fb73740409900e0c1a75130c0000080409b00e0c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803fa75130409b00e0c1893740c000008040aff987c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f89374040aff987c1815130c000008040b1f987c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f81513040b1f987c1
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.8791876, y: 4.7530823, z: -22.498608}
-    m_Extent: {x: 0.12421298, y: 0.7530823, z: 5.501693}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &876145962
 GameObject:
   m_ObjectHideFlags: 0
@@ -42784,21 +41953,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Therapist: Congratulations, Thiago, you-'
+      value: "Terapeuta: Meus parab\xE9ns, Thiago, voc\xEA-"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: "Thiago: Shhhh\u2026 He's sleeping, doctor."
+      value: "Thiago: Shhhh\u2026 Ele t\xE1 dormindo, doutor."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "\rTherapist: Oops, I'm sorry. I just wanted to congratulate you on
-        facing this internal memory that your mind created."
+      value: "Terapeuta: Ops, me desculpe. S\xF3 queria te parabenizar por enfrentar
+        essa mem\xF3ria interna que sua mente criou."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: "Thiago: Thanks! Poor baby, he just wanted attention, even if it was
-        just a little toy\u2026"
+      value: "Thiago: Valeu! Coitadinho dele, ele s\xF3 queria uma aten\xE7\xE3o
+        nem que fosse s\xF3 de um brinquedinho\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -45471,170 +44640,6 @@ Transform:
   m_Father: {fileID: 1545785355}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &960468639
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79004
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1152
-    _typelessdata: e0ff7fbe000000009dfe8f4100000000000000000000803f000080bf0000000000000000000080bfe0ff7f3e000000006004ba41000000009dfe8f4100000000000000000000803f000080bf0000000000000000000080bf6004bac100000000e0ff7fbe0000803f9dfe8f4100000000000000000000803f000080bf0000000000000000000080bfe0ff7f3e0000803f6004ba410000803f9dfe8f4100000000000000000000803f000080bf0000000000000000000080bf6004bac10000803f6004ba41000000009dfe8f410000803f000000000000000000000000000000000000803f000080bf9dfe8f41000000006004ba410000000070f13f3f0000803f000000000000000000000000000000000000803f000080bf70f13f3f000000006004ba410000803f9dfe8f410000803f000000000000000000000000000000000000803f000080bf9dfe8f410000803f6004ba410000803f70f13f3f0000803f000000000000000000000000000000000000803f000080bf70f13f3f0000803f6004ba410000000070f13f3f0000000000000000000080bf0000803f0000000000000000000080bf6004ba4100000000e0ff7fbe0000000070f13f3f0000000000000000000080bf0000803f0000000000000000000080bfe0ff7fbe000000006004ba410000803f70f13f3f0000000000000000000080bf0000803f0000000000000000000080bf6004ba410000803fe0ff7fbe0000803f70f13f3f0000000000000000000080bf0000803f0000000000000000000080bfe0ff7fbe0000803fe0ff7fbe0000000070f13f3f000080bf00000000000000000000000000000000000080bf000080bf70f13fbf00000000e0ff7fbe000000009dfe8f41000080bf00000000000000000000000000000000000080bf000080bf9dfe8fc100000000e0ff7fbe0000803f70f13f3f000080bf00000000000000000000000000000000000080bf000080bf70f13fbf0000803fe0ff7fbe0000803f9dfe8f41000080bf00000000000000000000000000000000000080bf000080bf9dfe8fc10000803fe0ff7fbe0000803f9dfe8f41000000000000803f000000000000803f0000000000000000000080bfe0ff7fbe9dfe8f416004ba410000803f9dfe8f41000000000000803f000000000000803f0000000000000000000080bf6004ba419dfe8f41e0ff7fbe0000803f70f13f3f000000000000803f000000000000803f0000000000000000000080bfe0ff7fbe70f13f3f6004ba410000803f70f13f3f000000000000803f000000000000803f0000000000000000000080bf6004ba4170f13f3fe0ff7fbe0000000070f13f3f00000000000080bf00000000000080bf0000000000000000000080bfe0ff7f3e70f13f3f6004ba410000000070f13f3f00000000000080bf00000000000080bf0000000000000000000080bf6004bac170f13f3fe0ff7fbe000000009dfe8f4100000000000080bf00000000000080bf0000000000000000000080bfe0ff7f3e9dfe8f416004ba41000000009dfe8f4100000000000080bf00000000000080bf0000000000000000000080bf6004bac19dfe8f41
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 11.501068, y: 0.5, z: 9.37455}
-    m_Extent: {x: 11.751068, y: 0.5, z: 8.624773}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &962155532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49800,8 +48805,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: Yeah\u2026 That's how the living room was usually, all messed
-        up. hahaha\n"
+      value: "Thiago: \xC9\u2026 Era dessa maneira que geralmente a sala de casa
+        ficava, toda desarrumada. hahaha\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -53065,170 +52070,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144734677}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!43 &1145641556
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79092
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 893740c000008040aff987c113d18037aba05eb70000803f000080bf0000000013d18037000080bf0000803f0000803f0000803f0000803f423340404efc7f40815130c000008040b1f987c113d100377a6e7eb70000803f000080bf0000000013d10037000080bf0000803f0000803f0000803f0000803f3a4d30404efc7f40893740c08032a040a8f987c113d100377a6e7eb70000803f000080bf0000000013d10037000080bf0000803f0000803f0000803f0000803f42334040a730a040815130c08032a040a8f987c100000000251e8fb70000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f3a4d3040a730a040815130c000008040b1f987c10000803fa620772de8055db5e8055d35000000000000803f000080bf0000803f0000803f0000803f0000803fb2f987c100008040a75130c0000080409b00e0c10000803f05061f3565906bb565906b35000000000000803f000080bf0000803f0000803f0000803f0000803f9c00e0c100008040815130c08032a040a8f987c10000803f05061f3565906bb565906b35000000000000803f000080bf0000803f0000803f0000803f0000803fa9f987c18032a040ac5130c08032a0409300e0c10000803f89059f35e21a7ab5e21a7a35000000000000803f000080bf0000803f0000803f0000803f0000803f9400e0c18032a040a75130c0000080409b00e0c1d3d080b7666e7e37000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803f9c4a30c00bf97f40b73740c0000080409900e0c1d3d080b7666e7e37000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fac3040c00bf97f40ac5130c08032a0409300e0c1d3d080b7666e7e37000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fa14a30c0052fa040bc3740c08032a0409100e0c1d3d080b7666e7e37000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fb13040c0052fa040b73740c0000080409900e0c1000080bf91059fb5f1c68535f1c685b500000000000080bf000080bf0000803f0000803f0000803f0000803f9b00e04107008040893740c000008040aff987c1000080bf12061fb5320c8d35320c8db512069f9f000080bf000080bf0000803f0000803f0000803f0000803fb1f9874107008040bc3740c08032a0409100e0c1000080bf12061fb5320c8d35320c8db512069f9f000080bf000080bf0000803f0000803f0000803f0000803f9300e0418732a040893740c08032a040a8f987c1000080bfb6fb80ad72519435725194b500000000000080bf000080bf0000803f0000803f0000803f0000803faaf987418732a040893740c08032a040a8f987c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f893740c0a8f987c1815130c08032a040a8f987c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f815130c0a8f987c1bc3740c08032a0409100e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fbc3740c09100e0c1ac5130c08032a0409300e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fac5130c09300e0c1b73740c0000080409900e0c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803fb73740409900e0c1a75130c0000080409b00e0c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803fa75130409b00e0c1893740c000008040aff987c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f89374040aff987c1815130c000008040b1f987c100000000000080bf00000000000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f81513040b1f987c1
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.879188, y: 4.5030823, z: -22.4986}
-    m_Extent: {x: 0.12421358, y: 0.5030823, z: 5.5016966}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1001 &1150700517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57143,7 +55984,7 @@ Transform:
   - {fileID: 1247461948}
   - {fileID: 1522480600}
   m_Father: {fileID: 38823094}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1242343925
 GameObject:
@@ -59209,7 +58050,7 @@ Transform:
   - {fileID: 282887670}
   - {fileID: 1239918203}
   m_Father: {fileID: 38823094}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1286702838
 GameObject:
@@ -59708,8 +58549,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: I''m feeling a little better, but it''s still not enough...
-        I have to calm down even more.'
+      value: "Thiago: T\xF4 me sentindo um pouco melhor, mas ainda n\xE3o \xE9 o
+        suficiente... Eu tenho que me acalmar mais ainda."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -62182,7 +61023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: Come on, I think I'm on the right track."
+      value: "Thiago: Vamo l\xE1, eu acho que t\xF4 no caminho certo."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -73314,170 +72155,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d20304a7b8d77b40b80e149cea28344, type: 3}
   m_PrefabInstance: {fileID: 1956591877}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &1515403251
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-79080
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: 8f3740c0000080b4a6f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f8f374040579b10b7875130c0000080b4a6f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f87513040579b10b78f3740c08032a040a5f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f8f3740406e32a040875130c08032a040a5f9afc1000000003d8cccb40000803f000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f875130406e32a040875130c0000080b4a6f9afc10000803f5d951d2be038c5b5e038c535000000000000803f000080bf0000803f0000803f0000803f0000803fa8f9afc193ff7fb4ac5130c0000000009300e0c10000803f5d959d2ade38c5b5de38c535000000000000803f000080bf0000803f0000803f0000803f0000803f9500e0c11811d92b875130c08032a040a5f9afc10000803f5d959d2ade38c5b5de38c535000000000000803f000080bf0000803f0000803f0000803f0000803fa7f9afc18032a040ac5130c08032a0409300e0c10000803f00000000dc38c5b5dc38c535000000000000803f000080bf0000803f0000803f0000803f0000803f9500e0c18032a040ac5130c0000000009300e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fa14a30c000000000bc3740c0000000009100e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fb13040c000000000ac5130c08032a0409300e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fa14a30c08032a040bc3740c08032a0409100e0c1d3d080b700000000000080bf0000803f00000000d3d080b7000080bf0000803f0000803f0000803f0000803fb13040c08032a040bc3740c0000000009100e0c1000080bf000000006eddef356eddefb500000000000080bf000080bf0000803f0000803f0000803f0000803f9400e041000000008f3740c0000080b4a6f9afc1000080bfd6a7bfaa6cddef356cddefb500000000000080bf000080bf0000803f0000803f0000803f0000803fa9f9af41000080b4bc3740c08032a0409100e0c1000080bfd6a7bfaa6cddef356cddefb500000000000080bf000080bf0000803f0000803f0000803f0000803f9400e0418032a0408f3740c08032a040a5f9afc1000080bfd6a73fab69ddef3569ddefb500000000000080bf000080bf0000803f0000803f0000803f0000803fa8f9af418032a0408f3740c08032a040a5f9afc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f8f3740c0a5f9afc1875130c08032a040a5f9afc1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803f875130c0a5f9afc1bc3740c08032a0409100e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fbc3740c09100e0c1ac5130c08032a0409300e0c1000000000000803f000000000000803f0000000000000000000080bf0000803f0000803f0000803f0000803fac5130c09300e0c1bc3740c0000000009100e0c15ba82bab000080bf15922ab3000080bf5ba82b2b00000000000080bf0000803f0000803f0000803f0000803fbc3740409100e0c1ac5130c0000000009300e0c15ba8abaa000080bf12922ab3000080bf5ba8ab2a00000000000080bf0000803f0000803f0000803f0000803fac5130409300e0c18f3740c0000080b4a6f9afc15ba8abaa000080bf12922ab3000080bf5ba8ab2a00000000000080bf0000803f0000803f0000803f0000803f8f374040a6f9afc1875130c0000080b4a6f9afc100000000000080bf0e922ab3000080bf0000000000000000000080bf0000803f0000803f0000803f0000803f87513040a6f9afc1
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: -2.879189, y: 2.5030823, z: -24.998589}
-    m_Extent: {x: 0.12421286, y: 2.5030823, z: 3.0016918}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1516558893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3984797380140599593, guid: 8c78b48e9fa3be84e987f01509abdbfc, type: 3}
@@ -74220,35 +72897,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: What a strange doctor... I''m a little confused by everything
-        that happened...
-
-'
+      value: "Thiago: Que estranho doutor\u2026 T\xF4 meio confuso com tudo o que
+        aconteceu\u2026\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: Yeah, that''s what I told you about personality, you ended
-        up having-'
+      value: "Terapeuta: \xC9, foi o que eu te falei sobre personalidade, voc\xEA
+        acabou tendo-"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "\rThiago: No no, sorry to interrupt you, doctor, this can be really
-        important too, but what intrigued me the most was"
+      value: "Thiago: N\xE3o n\xE3o, desculpa te interromper, doutor, isso pode ser
+        realmente importante tamb\xE9m, mas o que mais me intrigou foi"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: "\rThiago: Why did I feel so attached to that child? Why did I feel
-        the pain that baby felt so strongly?"
+      value: "Thiago: Porque eu me senti t\xE3o apegado naquela crian\xE7a? Por que
+        eu senti t\xE3o forte a dor que aquele beb\xEA sentiu?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
-      value: 'Therapist: Well, that specifically is something I still want to understand
-        a little better.'
+      value: "Terapeuta: Bom, isso especificamente \xE9 algo que eu ainda quero entender
+        um pouco melhor."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
-      value: 'Therapist: Go ahead with what still awaits you and at the end of it
-        all I can give you a better answer than anything.'
+      value: 'Terapeuta: Prossiga com o que ainda te espera e ao final de tudo eu
+        consigo te dar uma resposta melhor de tudo.'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -76817,15 +75492,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Wow, I had the same problem, doctor. It felt like I had already
-        lived through it all. The pain I felt from the young man, at least, was quite
-        strong.'
+      value: "Thiago: Nossa, tive o mesmo problema, doutor. Pareceu que eu j\xE1
+        tinha vivido tudo isso. A dor que eu senti do jovem, pelo menos, foi bem
+        forte."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: Well, Thiago, what you are going through seems to be very
-        complicated. I''m starting to understand the situation, but I need you to
-        keep moving forward so I can complete my diagnosis.'
+      value: "Terapeuta: Pois \xE9 Thiago, parece ser bem complicado o que voc\xEA
+        est\xE1 passando. Estou come\xE7ando a entender a situa\xE7\xE3o, mas preciso
+        que voc\xEA continue avan\xE7ando para que eu possa concluir meu diagn\xF3stico."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
@@ -77803,12 +76478,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: Aaah, yeah, now, doctor. I'm finally in the living room.\n"
+      value: "Thiago:  Aaah \xE9\xE9\xE9, agora sim doutor. Finalmente t\xF4 na sala
+        de casa.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: I told you Thiago, it was all a matter of time. Is everything
-        ok over there?'
+      value: "Terapeuta:  Eu lhe disse Thiago, era tudo quest\xE3o de tempo. Est\xE1
+        tudo certo por a\xED?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
@@ -77816,34 +76492,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: 'Therapist: Thiago?'
+      value: 'Terapeuta: Thiago?'
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
-      value: "Thiago: I don't know what happened, doctor... But this is not my house\r..."
+      value: "Thiago: N\xE3o sei o que houve, doutor\u2026 Mas aqui n\xE3o \xE9 a
+        minha casa\r..."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[5].Subtitle
-      value: "\rThiago: No... Not again..."
+      value: "Thiago: N\xE3o... De novo n\xE3o\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[6].Subtitle
-      value: "\rTherapist: Calm down Thiago, as I told you, things seem to be real,
-        but everything is just a simple regression. So keep calm and focus."
+      value: "Terapeuta: Se acalme Thiago, como eu te disse as coisas parecem ser
+        reais, mas tudo n\xE3o passa de uma simples regress\xE3o. Por isso, mantenha
+        a calma e se concentre."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[7].Subtitle
-      value: "\rTherapist: What did you most often do in the living room at home?"
+      value: "Terapeuta: O que voc\xEA mais costumava fazer a\xED na sala de casa?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[8].Subtitle
-      value: "\rThiago: As far as I remember... In fact, what most happened here
-        at home was when we moved the furniture in the living room."
+      value: "Thiago: Pelo o que eu me lembro... Na verdade, o que mais acontecia
+        aqui em casa, era a gente mover os m\xF3veis da sala."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[9].Subtitle
-      value: 'Therapist: Well, Thiago, I believe you already know what you can try
-        to do. Try this what you told me.'
+      value: "Terapeuta: Pois bem Thiago, acredito que voc\xEA j\xE1 saiba o que
+        d\xE1 para tentar fazer. Tente isso o que voc\xEA me contou."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -79255,7 +77933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "Thiago: C'mon\u2026 It happened again\u2026 Nothing has changed."
+      value: "Thiago: Co\xE9\u2026 Aconteceu de novo\u2026 Nada mudou."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -81242,13 +79920,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Therapist: Do you remember where you are?'
+      value: "Terapeuta: Voc\xEA se lembra de onde est\xE1?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: "\rThiago: Yes, this is my house, where I used to live with my parents,
-        but it's a little different... It seems that it's not the house I currently
-        live in."
+      value: "Thiago: Sim, essa \xE9 a minha casa, onde eu morava com os meus pais,
+        mas t\xE1 um pouco diferente... Parece que n\xE3o \xE9 a casa que eu vivo
+        atualmente."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -85194,22 +83872,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "Thiago: Yeah\u2026 I got a doctor, did you see? Did you see?"
+      value: "Thiago: \xC9\xE9\xE9\u2026 consegui doutor, voc\xEA viu? Voc\xEA viu?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: Yes I did my dear, do you think that-'
+      value: "Terapeuta: Vi sim meu caro, voc\xEA acha que-"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "Thiago: Wait a minute\u2026 Looks like it's not over yet\u2026 What's
-        going on?"
+      value: "Thiago: Pera a\xED\u2026 Parece que n\xE3o acabou ainda\u2026 O que
+        t\xE1 acontecendo?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: 'Therapist: That''s what I was going to ask you now. Looks like it''s
-        not over yet, explore the place more and see if you can''t find anything
-        different.'
+      value: "Terapeuta: Era o que eu ia te questionar agora. Parece que ainda n\xE3o
+        acabou, explore mais o local e veja se n\xE3o encontra nada de diferente."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
@@ -85647,29 +84324,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: How strange... does it look like the same room? And what
-        a cry is that, aargh...too irritating."
+      value: "Thiago: Que estranho... parece o mesmo quarto? E que choro \xE9 esse,
+        aargh...irritante demais."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: 'Therapist: Apparently you were able to access a more hidden place in
-        your mind and managed to unlock a memory.'
+      value: "Terapeuta: Aparentemente voc\xEA conseguiu acessar um local mais escondido
+        da sua mente e conseguiu desbloquear uma mem\xF3ria"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "\rTherapist: Within that same memory that we're regressing\u2026 I've
-        never seen this before\u2026 What's going on there?"
+      value: "Terapeuta: dentro dessa mesma mem\xF3ria em que estamos regredindo\u2026
+        Eu nunca vi isso antes\u2026 O que est\xE1 acontecendo a\xED?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
-      value: "Thiago: There's a child that won't stop crying here\u2026 And it seems
-        that nobody makes him stop. Here, doctor..."
+      value: "Thiago: Tem uma crian\xE7a que n\xE3o para de espernear aqui\u2026
+        E parece que ningu\xE9m faz ela parar. D\xE1 um jeito aqui doutor\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[4].Subtitle
-      value: "\rTherapist: I can't interfere with your regressions Thiago, I can
-        only get you out of them. Be patient and try to find the problem of this
-        situation."
+      value: "Terapeuta: Eu n\xE3o posso interferir em suas regress\xF5es Thiago,
+        apenas te tirar delas. Seja paciente e tente encontrar o problema dessa situa\xE7\xE3o."
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].VoiceLine
@@ -87277,9 +85953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: 'Thiago: Oh, how disgusting, this room is all messed up.
-
-'
+      value: "Thiago: Ah, que nojo, esse quarto t\xE1 todo bagun\xE7ado.\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
@@ -88547,19 +87221,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "\rThiago: Jeez\u2026 It looks like that child doesn't look very well,
-        the people behind him also seem to be very angry. But what can I do for this
-        kid, she looks so upset.\n"
+      value: "Thiago: Eita\u2026 Parece que aquela crian\xE7a n\xE3o parece ta muito
+        bem n\xE3o, as pessoas atr\xE1s dele tamb\xE9m parecem estar muito furiosas.
+        Mas o que ser\xE1 que eu posso fazer por essa crian\xE7a, ela parece t\xE3o
+        chateada.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
-      value: "Therapist: Hmm\u2026 I don't know for sure, but what made you feel
-        calmer in your adolescence, Thiago?"
+      value: "Terapeuta: Hum\u2026 N\xE3o sei ao certo, mas o que fazia voc\xEA se
+        sentir mais calmo na sua adolesc\xEAncia, Thiago?"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[2].Subtitle
-      value: "Thiago: One hundred percent messing with my computer\u2026 It de-stressed
-        me in a way you have no idea man\u2026"
+      value: "Thiago: Cem por cento mexer no meu computador\u2026 Isso me desestressava
+        de uma forma que voc\xEA n\xE3o tem ideia cara\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[3].Subtitle
@@ -95222,7 +93897,7 @@ Transform:
   - {fileID: 1225045723}
   - {fileID: 1968746832}
   m_Father: {fileID: 38823094}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1979087349 stripped
 GameObject:
@@ -96356,170 +95031,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1396b441ac9797046973b0e761a75fd5, type: 3}
   m_PrefabInstance: {fileID: 2001229396}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &2004976003
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-80468
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 36
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 24
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 24
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 56
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1536
-    _typelessdata: f4f7fe3fff07983ff11a863e83819835924feeb60000803f000080bf0000000083819835000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803ff2f7febf0f08983f5443a040ff07983f7e1a863efd9ac33509c1f5360000803f000080bf09c175a1fd9ac335000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f5343a0c00f08983f10f8fe3f08a0a03f011b863efd9ac33509c1f5360000803f000080bf09c175a1fd9ac335000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f0ef8febf18a0a03f5943a04008a0a03f4d1a863e77b4ee356974b6370000803f000080bf687436a277b4ee35000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f5843a0c018a0a03f5443a040ff07983f7e1a863e0000803f88f114b8debb97b6debb973688f194230000803f000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f761d863ed30d983f4843a040ff07983f227180bf0000803f64f114b8eebb97b6eebb9736000000000000803f000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f647080bfd30d983f5943a04008a0a03f4d1a863e0000803f64f114b8eebb97b6eebb9736000000000000803f000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f451d863edca5a03f4d43a04008a0a03f0e7180bf0000803f41f114b8fdbb97b6fdbb9736000000000000803f000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f507080bfdca5a03f4843a040ff07983f227180bfb9394cb68bf11438000080bf0000803f00000000b9394cb6000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f4e43a040d406983fddf7fe3fff07983fd57080bffdc921b6d24fee36000080bf0000803f00000000fdc921b6000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803ff7f7fe3fd406983f4d43a04008a0a03f0e7180bffdc921b6d24fee36000080bf0000803f00000000fdc921b6000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f5343a040dd9ea03ff1f7fe3f08a0a03fe17080bf81b4eeb52dbbb2b7000080bf0000803f2cbb322281b4eeb5000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f0bf8fe3fdd9ea03fddf7fe3fff07983fd57080bf000080bf7af114388c6911368c6911b67bf11423000080bf000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803fb170803f500a983ff4f7fe3fff07983ff11a863e000080bf54bb323884b32a3684b32ab655bb3223000080bf000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f821b86be500a983ff1f7fe3f08a0a03fe17080bf000080bf54bb323884b32a3684b32ab655bb3223000080bf000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803fbd70803f59a2a03f10f8fe3f08a0a03f011b863e000080bf2d8550387dfd43367dfd43b62e855023000080bf000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f921b86be59a2a03f10f8fe3f08a0a03f011b863e000000000000803f000000000000803f0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f10f8fe3f011b863e5943a04008a0a03f4d1a863e000000000000803f000000000000803f0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f5943a0404d1a863ef1f7fe3f08a0a03fe17080bf000000000000803f000000000000803f0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803ff1f7fe3fe17080bf4d43a04008a0a03f0e7180bf000000000000803f000000000000803f0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f4d43a0400e7180bfddf7fe3fff07983fd57080bf00000000000080bf00000000000080bf0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803fddf7febfd57080bf4843a040ff07983f227180bf00000000000080bf00000000000080bf0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f4843a0c0227180bff4f7fe3fff07983ff11a863e00000000000080bf00000000000080bf0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803ff4f7febff11a863e5443a040ff07983f7e1a863e00000000000080bf00000000000080bf0000000000000000000080bfb9b8b83d8b8a8a3e9c9b1b3f0000803f5443a0c07e1a863e
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 3.50008, y: 1.221314, z: -0.3707639}
-    m_Extent: {x: 1.508141, y: 0.033569872, z: 0.63268864}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &2005309775
 GameObject:
   m_ObjectHideFlags: 0
@@ -97801,8 +96312,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[0].Subtitle
-      value: "Thiago: Yeah\u2026 I'm really in my room\u2026 I can feel the sadness
-        of this lonely little boy, from far.\n"
+      value: "Thiago: \xC9\u2026 Realmente eu estou no meu quarto\u2026 Eu consigo
+        sentir a tristeza desse pequeno jovem solit\xE1rio, de longe.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9084167780215463648, guid: 242f97b140673ef45809379e13258a2f, type: 3}
       propertyPath: AUDIO_CONFIG.Array.data[1].Subtitle
